@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.21.1-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0" xml:space="preserve"/>
+    <node id="n0">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="58.80000000000001" width="226.59765486486504" x="417.5353741290612" y="2614.287203113764"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="144.701171875" x="40.94824149493252" xml:space="preserve" y="4.0">createNewAutomatizmID()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="210.58984375" x="2.0" xml:space="preserve" y="30.701171875">Создать моторный автоматизм по ID<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="96.01084053907425" width="195.1511184325725" x="688.5189598055249" y="2427.1423976052974"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="135.3671875" x="29.89196546628625" xml:space="preserve" y="4.0">CreateNewAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="184.90234375" x="2.0" xml:space="preserve" y="30.701171875">Создать новый моторный
+автоматизм с привязкой к узлу
+дерева моторных автоматизмов
+и сохранением в файл<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.67091633466134" width="233.32482495916008" x="2121.315043050168" y="1784.912761816999"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="176.72265625" x="28.30108435457987" xml:space="preserve" y="4.0">CreateAtutomatizmNoSaveFile()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="217.3046875" x="2.0" xml:space="preserve" y="30.701171875">Создать новый моторный автоматизм
+с привязкой к узлу дерева моторных
+автоматизмов без сохранения в файл<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="58.80000000000001" width="173.49056580079667" x="444.08891866109536" y="2737.7306053828083"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#99CC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.220703125" x="34.134931337898365" xml:space="preserve" y="4.0">Вывести на Пульт</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="152.91015625" x="2.0" xml:space="preserve" y="30.701171875">Создан новый автоматизм<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.0" width="215.35632031872478" x="101.14413664022655" y="2438.1478178748343"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#FFFF00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="98.03125" x="58.66253515936239" xml:space="preserve" y="4.0">loadAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="192.77734375" x="2.0" xml:space="preserve" y="30.701171875">Загрузить автоматизмы из файла<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.0" width="312.0181326741222" x="346.5005320498294" y="2438.1478178748343"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="266.751953125" x="22.633089774561086" xml:space="preserve" y="4.0">infoCreateAndRunMentMotorAtmzmFromAction()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="298.041015625" x="2.0" xml:space="preserve" y="30.701171875">Создать моторный автоматизм по пусковому образу<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="68.80492751776097" width="155.97884664353091" x="708.1050957000457" y="2312.6493711460676"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="108.6953125" x="23.641767071765457" xml:space="preserve" y="4.0">createAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="140.9921875" x="2.0" xml:space="preserve" y="30.701171875">Сформировать пробный
+моторный автоматизм<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="73.79999999999998" width="255.78713828443642" x="1232.7735689272122" y="2157.151834904948"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="224.751953125" x="15.517592579718212" xml:space="preserve" y="4.0">createAndRunAutomatizmFromPurpose()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="233.08984375" x="2.0" xml:space="preserve" y="30.701171875">Выбрать пробный моторный автоматизм<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="73.79999999999998" width="236.0432791044134" x="746.5998635965886" y="1790.8482199843295"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="221.44140625" x="7.300936427206693" xml:space="preserve" y="4.0">getPurposeGeneticAndRunAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="220.9609375" x="2.0" xml:space="preserve" y="30.701171875">Определение Цели в данной ситуации
+на уровне наследственных функций<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="44.511022576361256" width="113.75825953824608" x="807.7423733796724" y="1612.5612675589323"/>
+          <y:Fill color="#E8EEF7" color2="#FF99CC" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.37890625" x="16.189676644123097" xml:space="preserve" y="12.904925350680514">orientation_1()<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.67091633466134" width="255.78713828443637" x="778.5997594034025" y="1992.3809185702867"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="202.755859375" x="26.51563945471821" xml:space="preserve" y="4.0">chooseAutomatizmSuccessAndRun()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="235.48046875" x="2.0" xml:space="preserve" y="30.701171875">Выбрать из ранее удачного моторного
+автоматизма, перекрыть цель новой
+и запустить новый моторный автоматизм<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.67091633466134" width="229.671042063536" x="1309.7784424344877" y="1992.3809185702867"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="160.0703125" x="34.80036478176794" xml:space="preserve" y="4.0">findAnySympleRandActions()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="219.015625" x="2.0" xml:space="preserve" y="30.701171875">Пробовать всякие случайные простые
+действия, не повторяясь<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.67091633466134" width="242.29635880301407" x="1397.6229269218916" y="1784.912761816999"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="221.44140625" x="10.42747627650715" xml:space="preserve" y="4.0">getPurposeGeneticAndRunAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="220.9609375" x="2.0" xml:space="preserve" y="30.701171875">Определение Цели в данной ситуации
+на уровне наследственных функций<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="113.18446700850427" width="219.94159888051672" x="437.1788783117115" y="1578.2245453428604"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="90.701171875" x="64.62021350275836" xml:space="preserve" y="4.0">consciousness()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="204.578125" x="2.0" xml:space="preserve" y="30.701171875">Главная, активная с каждым
+ориентировочным рефлексом
+функция циклов осмысления
+для поддержания информационной
+среды и произвольности.<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="142.19196593977236" width="213.6836401776054" x="2053.186429091739" y="1563.7207958772265"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.759765625" x="7.461937276302706" xml:space="preserve" y="4.0">createNodeUnattachedAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="106.908203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="194.974609375" x="2.0" xml:space="preserve" y="30.701171875">Формирование не привязанных к
+узлу автоматизмов при активации
+дерева для всех фраз и для всех
+действий на основе привязанного
+автоматизма, чтобы другие ветки
+могли пользоваться при разных
+условиях.<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="100.48731978522528" width="241.94756041528058" x="1781.2385959570283" y="1584.5731189545"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="164.025390625" x="38.961084895140175" xml:space="preserve" y="4.0">createNewMirrorAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="240.244140625" x="2.0" xml:space="preserve" y="30.701171875">Создание зеркального автоматизма,
+повторяющего действия оператора в
+данных условиях в ответ на действия
+sourceAtmzm - причина ответа оператора.<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.67091633466134" width="278.9948878963378" x="1471.2435036450706" y="1591.981320679782"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="163.36328125" x="57.81580332316889" xml:space="preserve" y="4.0">provokatorMirrorAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="269.798828125" x="2.0" xml:space="preserve" y="30.701171875">В случае отсутствия автоматизма в
+данных условиях послать оператору
+те же стимулы, чтобы посмотреть его реакцию.<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.67091633466137" width="219.94159888051672" x="1275.403084660918" y="1306.9386232745953"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.708984375" x="50.61630725275836" xml:space="preserve" y="4.0">noAutovatizmResult()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="212.34765625" x="2.0" xml:space="preserve" y="30.701171875">Отреагировать на отсуствие реакции
+повторить автоматизм с большей
+силой Energy<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.67091633466137" width="194.71205782030097" x="1804.856347254518" y="1458.0498795425651"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="130.697265625" x="32.0073960976506" xml:space="preserve" y="4.0">calcAutomatizmResult()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="152.30078125" x="2.0" xml:space="preserve" y="30.701171875">Оценивать действие
+запущенного автоматизма<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.67091633466134" width="213.6836401776054" x="2053.186429091739" y="1458.0498795425651"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="160.708984375" x="26.487327901302706" xml:space="preserve" y="4.0">getAutomatizmFromNodeID()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="167.646484375" x="2.0" xml:space="preserve" y="30.701171875">Выбрать лучший автоматизм
+для узла nodeID<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.67091633466134" width="155.46522950404233" x="1688.0059518888374" y="1306.9386232745953"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.703125" x="21.381052252021163" xml:space="preserve" y="4.0">afterTreeActivation()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="147.642578125" x="2.0" xml:space="preserve" y="30.701171875">Реакция после активации
+ветки дерева моторных
+автоматизмов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n21">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="73.79999999999998" width="204.85603737574525" x="1282.9458654133036" y="1093.234589108827"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.708984375" x="34.073526500372736" xml:space="preserve" y="4.0">automatizmActionsPuls()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="188.177734375" x="2.0" xml:space="preserve" y="30.701171875">Ожидание реакции от оператора
+в течении 20 сек<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d5" xml:space="preserve"><![CDATA[Запускает каждую секунду Аctivatin(),
+поддерживая возможность самостоятельных действий Beast
+Это обеспечивает возможность параллельной работы
+функций Beast, отводя им выполнение с каждым пульсом.]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="63.75401892991732" width="241.01497031301204" x="902.299930690702" y="15.5"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#FF6600" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.3359375" x="102.83951640650605" xml:space="preserve" y="4.0">Puls()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="221.939453125" x="2.0" xml:space="preserve" y="30.701171875">Генератор пульсации с частотой 1 сек.
+<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n23">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.0" width="162.12825804938348" x="1684.6744376161669" y="1210.9183364621367"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.712890625" x="5.707683712191738" xml:space="preserve" y="4.0">automatizmTreeActivation()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="141.49609375" x="2.0" xml:space="preserve" y="30.701171875">Активировать дерево
+моторных автоматизмов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n24">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="85.81638085082659" width="243.30045631160107" x="812.8696876914075" y="577.9121539982852"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="165.40234375" x="38.949056280800505" xml:space="preserve" y="4.0">ActiveFromConditionChange()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="242.83984375" x="2.0" xml:space="preserve" y="30.701171875">Активация при любом изменении условий.
+ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n25">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="84.81937371653794" width="198.69834663929953" x="1086.1703457021613" y="578.4106575654296"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="69.34375" x="64.67729831964971" xml:space="preserve" y="4.0">PsychicInit()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="177.28515625" x="2.0" xml:space="preserve" y="30.701171875">Инициализация блока Психики
+<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n26">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="45.56999588012695" width="67.49800109863281" x="1683.4058359328124" y="331.3215262379301"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="31.749000549316406" y="49.56999588012695">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="37.375" x="15.061500549316406" xml:space="preserve" y="-29.114856273129476">Пульт<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.5" nodeRatioX="0.0" nodeRatioY="-0.5" offsetX="0.0" offsetY="-10.413684398129476" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n27">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="171.26539717191417" width="354.9795728198318" x="1012.6432246753874" y="1742.1155213983725"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="228.115234375" x="63.43216922241584" xml:space="preserve" y="4.0">getPurposeGenetic2AndRunAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="136.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="346.673828125" x="2.0" xml:space="preserve" y="30.701171875">Обработка автоматизма, рвущегося на выполнение,
+но в условиях может быть новизна. Здесь очень
+органиченные возможности адаптации автоматизма:
+плохой - не выполнять, хороший - выполнять. При опасной
+ситуации выполнять тот, какой есть, при спокойной ситуации
+пробовать рефлексы мозжечка. Из-за столь скудных
+возможностей и разросся функционал мыслительных
+автоматизмов с их произвольностью (перекрытием
+имеющихся автоматизмов новыми).<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n28">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="67.71148995957856" width="169.13532632938643" x="420.29828442854654" y="1793.8924750045403"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.724609375" x="21.205358477193215" xml:space="preserve" y="4.0">reloadConsciousness()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="159.830078125" x="2.0" xml:space="preserve" y="30.701171875">Перезапустить осмысление
+или остановить цикл<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n29">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="67.7114899595785" width="194.9292800861141" x="504.6703551692302" y="1467.0295927301065"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.751953125" x="30.088663480557102" xml:space="preserve" y="4.0">understandingSituation()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="177.748046875" x="2.0" xml:space="preserve" y="30.701171875">Активации дерева ментальных
+автоматизмов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n30">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="67.7114899595785" width="155.84753196986014" x="796.6128165289446" y="1315.9183364621367"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="133.375" x="11.236265984930128" xml:space="preserve" y="4.0">RunMentalAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="116.330078125" x="2.0" xml:space="preserve" y="30.701171875">Запуск ментального
+автоматизма<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n31">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="44.511022576361256" width="119.70310245912736" x="1130.2814598557397" y="1612.5612675589323"/>
+          <y:Fill color="#E8EEF7" color2="#FF99CC" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.37890625" x="19.16209810456371" xml:space="preserve" y="12.904925350680514">orientation_2()<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n32">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="58.80000000000001" width="215.39136520584339" x="1064.3869316569849" y="2005.8163767376172"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#00CCFF" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="102.6953125" x="56.348026352921806" xml:space="preserve" y="4.0">SaveAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="192.25" x="2.0" xml:space="preserve" y="30.701171875">Сохранить моторный автоматизм<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n33">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="44.511022576361256" width="108.631803061401" x="1108.6591730466662" y="1478.6298264217153"/>
+          <y:Fill color="#E8EEF7" color2="#FF99CC" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.03125" x="20.300276530700557" xml:space="preserve" y="12.904925350680514">orientation()<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n34" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="126.17646484375" width="459.063888888889" x="792.5254714027636" y="99.25401892991731"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="459.063888888889" x="0.0" xml:space="preserve" y="0.0">Сканирование состояния Beast - pulsActions()</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="1.5591530188885372E-4" right="0" rightF="3.625019412538677E-4" top="0" topF="1.4210854715202004E-14"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="0.0" y="60.0"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.02685546875" x="-4.513427734375" xml:space="preserve" y="0.0">Folder 1</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n34:">
+        <node id="n34::n0">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="73.79999999999998" width="194.20721150405416" x="1042.3817862856572" y="136.63048377366732"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#00CCFF" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.353515625" x="55.42684793952708" xml:space="preserve" y="4.0">saveLifeTime()</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="181.76171875" x="2.0" xml:space="preserve" y="30.701171875">Сохранить время жизни в файл
+каждые 10 сек<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n34::n1">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="73.79999999999998" width="204.85603737574525" x="807.5256273180655" y="136.63048377366732"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="53.353515625" x="75.75126087537262" xml:space="preserve" y="4.0">inaction()</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="177.548828125" x="2.0" xml:space="preserve" y="30.701171875">Запуск функций, выполняемых
+в режиме тишины<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n35" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="194.97561596490254" width="1262.6964285714287" x="390.70920156149384" y="245.43048377366728"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1262.6964285714287" x="0.0" xml:space="preserve" y="0.0">Главный цикл опроса состояния Beast и его ответов - Аctivation()</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="3.887001536782009E-4" right="0" rightF="1.9887699386345048E-4" top="0" topF="5.6843418860808015E-14"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="0.0" y="60.0"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.02685546875" x="-4.513427734375" xml:space="preserve" y="0.0">Folder 2</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n35:">
+        <node id="n35::n0">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="73.79999999999998" width="133.53731783778767" x="405.7095902616475" y="317.2065241779936"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="108.701171875" x="12.418072981393834" xml:space="preserve" y="4.0">PsychicCountPuls()</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="111.818359375" x="2.0" xml:space="preserve" y="30.701171875">Пульсация психики<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n35::n1">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="77.18611385422906" width="199.12394961485847" x="884.7388934207312" y="315.513467250879"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="101.37109375" x="48.87642793242924" xml:space="preserve" y="4.0">ReflexCountPuls()</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="187.662109375" x="2.0" xml:space="preserve" y="30.701171875">Коррекция текущего состояния
+гомеостаза и базового контекста<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n35::n2">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="142.5991511211525" width="310.0440802078096" x="1113.8629551083827" y="282.80694861741733"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="96.6953125" x="106.67438385390483" xml:space="preserve" y="4.0">GomeostazPuls()</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="106.908203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="300.291015625" x="2.0" xml:space="preserve" y="30.701171875">1. badDetecting() - определение текущего состояния
+по каждому базовому параметру, затем общее
+интегральное состояние.
+2. changingConditionsDetector() - детектор изменения
+базового состояния и контекстов.
+3. gomeostazUpdate() - обновить текущее состояние
+гомеостаза.<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n35::n3">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="77.18611385422909" width="184.49801494442522" x="1453.9074163115033" y="315.513467250879"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="106.708984375" x="38.894515284712725" xml:space="preserve" y="4.0">ActionSensorPuls()</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="178.181640625" x="2.0" xml:space="preserve" y="30.701171875">Передача активных контекстов
+действий с Пульта<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n35::n4">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="142.59915112115246" width="285.49184565043595" x="569.2470088950059" y="282.80694861741733"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="121.609375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="267.87109375" x="8.810375950217917" xml:space="preserve" y="10.494888060576216">1. GetSleepCondition(): проверка состояния сна
+2. TermineteActionCountPuls():
+если активирован сон прекратить
+выполнять все простейшие рефлексы
+3. Понижение повреждений во сне
+каждый пульс или в час 0.01*3600=36
+4. prepareWordArr() - обработка накопившегося
+массива распознанных фраз.<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n36">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="73.79999999999998" width="179.69455892752126" x="1548.850810986622" y="769.3345891088272"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.064453125" x="30.815052901260515" xml:space="preserve" y="4.0">baseContextUpdate()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="168.490234375" x="2.0" xml:space="preserve" y="30.701171875">Обновить базовые контексты<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n37">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="73.79999999999998" width="146.30999809846867" x="1610.4669009249578" y="583.9203444236985"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="130.03515625" x="8.137420924234448" xml:space="preserve" y="4.0">SetCurGomeoParams()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="131.388671875" x="2.0" xml:space="preserve" y="30.701171875">Установка параметров
+гомеостаза с Пульта<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n38">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="266.8284893702573" width="315.1419268500188" x="1786.777127025373" y="487.40609973856976"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="306.87109375" x="4.135416550009495" xml:space="preserve" y="4.0">Создать автоматизмы с Пульта на основе
+безусловных/условных рефлексов и общих шаблонов</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.81640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="282.478515625" x="2.0" xml:space="preserve" y="45.40234375">1. RunMakeAutomatizmsFromReflexes():
+Сканировать все условные рефлексы,
+создать автоматизм, прикрепив его к нужно ветке
+или создать ветку, если ее еще нет.
+2. RunMakeAutomatizmsFromGeneticReflexes():
+Сканировать все безусловные рефлексы,
+создать автоматизм, прикрепив его к нужно ветке
+или создать ветку, если ее еще нет.
+3. FormingMirrorAutomatizmFromList():
+Формирование зеркальных автоматизмов
+на основе списка ответов
+4. FormingMirrorAutomatizmFromTempList():
+Формирование зеркальных автоматизмов
+на основе общего шаблона ответов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n39" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="332.7529296875" width="236.50873015873026" x="1224.5627729900652" y="713.4816594213271"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="40.7529296875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="236.50873015873026" x="0.0" xml:space="preserve" y="0.0">Образ Пускового стимула
+моторного автоматизма</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="1.2320019777689595E-6" right="0" rightF="1.2320024325163104E-6" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="0.0" y="60.0"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.02685546875" x="-4.513427734375" xml:space="preserve" y="0.0">Folder 3</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n39:">
+        <node id="n39::n0">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="74.0" width="206.50872769472585" x="1239.5627742220672" y="769.2345891088271"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="151.369140625" x="27.569793534863038" xml:space="preserve" y="4.0">GetCurContextActiveIDarr()</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="195.818359375" x="2.0" xml:space="preserve" y="30.701171875">Определение текущего сочетания
+ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n39::n1">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="74.0" width="206.50872769472585" x="1239.5627742220672" y="863.2345891088271"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="115.38671875" x="45.56100447236304" xml:space="preserve" y="4.0">createNewBaseStyle</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="163.41015625" x="2.0" xml:space="preserve" y="30.701171875">Получить или создать образ
+Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n39::n2">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="74.0" width="206.50872769472585" x="1239.5627742220672" y="957.2345891088271"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="182.716796875" x="11.895965409863038" xml:space="preserve" y="4.0">CreateNewTriggerStimulsImage()</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="163.41015625" x="2.0" xml:space="preserve" y="30.701171875">Получить или создать образ
+Пусковых стимулов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n40">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="83.82236658224951" width="263.4051422894019" x="1314.8689320040944" y="578.9091611325737"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="120.724609375" x="71.34026645720087" xml:space="preserve" y="4.0">ActivationTypeSensor</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="250.48046875" x="2.0" xml:space="preserve" y="30.701171875">2. ActiveFromAction() - активация действием
+3. ActiveFromPhrase() - активация фразой<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n41">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.decision">
+          <y:Geometry height="67.56749470661907" width="127.46595811089026" x="1733.8722542520804" y="1096.3508417555176"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.07421875" x="11.195869680445185" xml:space="preserve" y="24.433161415809536">EvolushnStage &lt; 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n42">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.00000000000003" width="182.88588085626134" x="1705.5916579587597" y="2157.051834904948"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="165.42578125" x="8.730049803130669" xml:space="preserve" y="4.0">wasChangingMoodCondition()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="164.880859375" x="2.0" xml:space="preserve" y="30.701171875">Определение стало ЛУЧШЕ,
+стало ХУЖЕ<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n43">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.0" width="144.5394419198935" x="2297.870432982499" y="1210.9183364621367"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="102.02734375" x="21.25604908494688" xml:space="preserve" y="4.0">activeReflexTree()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="124.08203125" x="2.0" xml:space="preserve" y="30.701171875">Активировать дерево
+рефлексов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n44">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.decision">
+          <y:Geometry height="57.554373625693415" width="111.2077753345659" x="1329.7699964338935" y="1219.1411496492901"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.431640625" x="16.388067354782834" xml:space="preserve" y="19.426600875346594">Есть реакция<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n45">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.small_entity">
+          <y:Geometry height="119.2443730556069" width="374.26939797356766" x="1281.5893602916526" y="106.1861107180604"/>
+          <y:Fill color="#E8EEF7" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="106.908203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="351.0400390625" x="11.61467945553386" xml:space="preserve" y="6.16808496530345">При старте программы начинает работать генератор
+пульсаций с частотой 1 сек. Он запускает каждую
+секунду Аctivation(), поддерживая возможность
+самостоятельных действий Beast. Это обеспечивает
+возможность параллельной работы функций Beast,
+отводя им выполнение с каждым пульсом.<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n46">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.00000000000003" width="182.88588085626134" x="1659.8702293873312" y="1998.2163767376173"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.052734375" x="23.41657324063067" xml:space="preserve" y="4.0">setAutomatizmRunning()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="158.72265625" x="2.0" xml:space="preserve" y="30.701171875">Отслеживание запущенных
+моторных автоматизмов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n47">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.00000000000003" width="206.50872769472585" x="1670.9195202538135" y="1790.7482199843296"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="165.37890625" x="20.564910722363038" xml:space="preserve" y="4.0">runAutomatizmFromPurpose()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="188.8515625" x="2.0" xml:space="preserve" y="30.701171875">Запустить моторный автоматизм
+с отслеживанием результата<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n48">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.00000000000003" width="182.88588085626134" x="1907.4285627206646" y="1790.7482199843296"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="138.73046875" x="22.07770605313067" xml:space="preserve" y="4.0">cerebellumCoordination()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="146.95703125" x="2.0" xml:space="preserve" y="30.701171875">Усилить силу действия
+мозжечковым рефлексом<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n49">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.00000000000003" width="163.46350970401772" x="1701.681018138056" y="2310.051834904948"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="104.693359375" x="29.385075164508862" xml:space="preserve" y="4.0">CheckCurActions()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="133.908203125" x="2.0" xml:space="preserve" y="30.701171875">Какие акции действуют
+в данный момент<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n50">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.0" width="155.3863650180322" x="1608.5003444493027" y="2835.1306053828084"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.037109375" x="16.674627821516196" xml:space="preserve" y="4.0">DeactivationTriggers()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="143.67578125" x="2.0" xml:space="preserve" y="30.701171875">Сбросить контекст акций
+по кнопкам Пульта<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n51">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.0" width="147.87086223683283" x="1709.4773418716486" y="2730.1306053828084"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="90.701171875" x="28.584845180916318" xml:space="preserve" y="4.0">toRunRefleses()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="134.91015625" x="2.0" xml:space="preserve" y="30.701171875">Запустить готовые к
+выполнению рефлексы<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n52">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="142.19196593977247" width="286.84538587905854" x="1639.9900800505357" y="2404.051834904948"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.056640625" x="80.39437262702927" xml:space="preserve" y="4.0">getActiveConditionsArr</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="106.908203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="279.68359375" x="2.0" xml:space="preserve" y="30.701171875">Создание иерархии пусковых образов рефлекса:
+1. ActiveCurBaseID - текущее базовое состояние:
+1 - Похо, 2 - Норма, 3 - Хорошо
+2. ActiveCurBaseStyleID - ID сочетания текущих
+базовых контекстов
+3. ActiveCurTriggerStimulsID - ID сочетания
+текущих пусковых стимулов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n53">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="132.88680453808755" width="286.84538587905854" x="1639.9900800505357" y="2577.2438008447207"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.71484375" x="87.06527106452927" xml:space="preserve" y="4.0">findReflexesNodes()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="92.20703125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="236.951171875" x="2.0" xml:space="preserve" y="30.701171875">Определяет тип рефлекса, который
+будет выполняться согласно иерархии
+пусковых образов:
+1. условный рефлекс, если его нет, то
+2. безусловный рефлекс, если его нет, то
+3. древний безусловный рефлекс<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n54">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="67.63670378266971" width="173.49056580079667" x="1793.886736121413" y="2838.3122534914737"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#99CC00" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.220703125" x="34.13493133789825" xml:space="preserve" y="4.0">Вывести на Пульт</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="152.0546875" x="2.0" xml:space="preserve" y="30.701171875">Выдать на пульт действия
+рефлексов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n55">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.00000000000003" width="177.98752889023945" x="771.69718314812" y="2157.051834904948"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.05859375" x="29.964467570119723" xml:space="preserve" y="4.0">GetAttentionDanger()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="162.19140625" x="2.0" xml:space="preserve" y="30.701171875">Оценить опасность текущей
+ситуации: да-нет<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n56">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="74.00000000000003" width="223.0884305737701" x="979.6848275444501" y="2157.051834904948"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.7421875" x="12.173121536885105" xml:space="preserve" y="4.0">GetCurrentInformationEnvironment()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="204.009765625" x="2.0" xml:space="preserve" y="30.701171875">Состояние информационной среды<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n57">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="73.99999999999994" width="204.85603737574525" x="504.67046858790684" y="1210.9183364621367"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="64.69140625" x="70.08231556287262" xml:space="preserve" y="4.0">infoFunc5()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="190.521484375" x="2.0" xml:space="preserve" y="30.701171875">Создать и запустить ментальный
+автоматизм по действию<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n58">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="73.99999999999994" width="204.85603737574525" x="1039.5466590640972" y="1210.9183364621367"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="64.69140625" x="70.08231556287274" xml:space="preserve" y="4.0">infoFunc7()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="190.521484375" x="2.0" xml:space="preserve" y="30.701171875">Создать и запустить ментальный
+автоматизм по образу действия<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n59">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="73.99999999999994" width="270.0201325984931" x="739.5265162146281" y="1210.9183364621367"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="196.755859375" x="36.632136611746546" xml:space="preserve" y="4.0">createAndRunPurposeAutomatizm()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="259.94921875" x="2.0" xml:space="preserve" y="30.701171875">Создать и запустить ментальный автоматизм
+приоизвольной активацции ментальной цели<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n60">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="159.76467846228616" width="259.0525301071144" x="0.0" y="540.9380051925555"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="98.716796875" x="80.16786661605721" xml:space="preserve" y="4.0">updatePsyMood()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="121.609375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="255.220703125" x="2.0" xml:space="preserve" y="30.701171875">PsyMood стремится к нулю
+со временем. Постоянное состояние
+Хорошо довольно быстро уходит,
+постоянное состояние Плохо
+уходит гораздо медленнее. При резких
+изменениях возникает эффект "маятника
+настроения": появление противоположного
+по знаку настроения, но меньшего значения.<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n61">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="70.47289702234667" width="184.61736396511128" x="289.05290053131904" y="585.5838959125251"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#00CCFF" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.7109375" x="30.95321323255564" xml:space="preserve" y="4.0">saveEpisodicMenory()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="172.919921875" x="2.0" xml:space="preserve" y="30.701171875">Запись эпизодической памяти
+каждые 100 пульсов<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <edge id="e0" source="n1" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="48.005420269537126" tx="28.32470685810813" ty="-29.400000000000006">
+            <y:Point x="786.0945190218112" y="2538.6532381443717"/>
+            <y:Point x="559.1589084196019" y="2538.6532381443717"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n2" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="42.83545816733067" tx="84.97412057432439" ty="-29.40000000000009">
+            <y:Point x="2237.9774555297477" y="2561.7438008447207"/>
+            <y:Point x="615.8083221358181" y="2561.7438008447207"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n4" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.0" tx="-84.97412057432439" ty="-29.400000000000006">
+            <y:Point x="208.82229679958894" y="2527.6478178748343"/>
+            <y:Point x="445.86008098716934" y="2527.6478178748343"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n0" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="29.400000000000006" tx="0.0" ty="-29.400000000000006"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n5" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.0" tx="-28.32470685810813" ty="-29.400000000000006"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n6" target="n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="34.40246375888049" tx="0.0" ty="-48.005420269537126"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n7" target="n6">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="36.89999999999999" tx="38.99471166088273" ty="-34.40246375888049">
+            <y:Point x="1360.6671380694302" y="2246.551834904948"/>
+            <y:Point x="825.0892306826939" y="2246.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n8" target="n6">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-94.41731164176531" sy="36.90000000000009" tx="-38.994711660882786" ty="-34.40246375888046">
+            <y:Point x="770.20419150703" y="1880.1482199843294"/>
+            <y:Point x="747.0996777519699" y="1880.1482199843294"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n9" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-37.919419846082064" sy="22.036761288180514" tx="-63.94678457110899" ty="-36.90000000000009">
+            <y:Point x="826.7020833027133" y="1672.5722901352933"/>
+            <y:Point x="731.0996777519699" y="1672.5722901352933"/>
+            <y:Point x="731.0996777519699" y="2125.551834904948"/>
+            <y:Point x="1296.7203534983214" y="2125.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n10" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="42.83545816733067" tx="21.31559485703636" ty="-36.89999999999999">
+            <y:Point x="906.4933285456207" y="2093.551834904948"/>
+            <y:Point x="1381.9827329264667" y="2093.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n11" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="42.83545816733067" tx="63.946784571109106" ty="-36.89999999999999"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n12" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-60.574089700753575" sy="42.83545816733067" tx="106.57797428518188" ty="-36.90000000000009">
+            <y:Point x="1458.1970166226452" y="1886.0836781516603"/>
+            <y:Point x="1554.9496777519698" y="1886.0836781516603"/>
+            <y:Point x="1554.9496777519698" y="2093.551834904948"/>
+            <y:Point x="1467.245112354612" y="2093.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n13" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="73.31386629350561" sy="56.592233504252135" tx="-106.57797428518188" ty="-36.90000000000009">
+            <y:Point x="620.4635666408587" y="2141.551834904948"/>
+            <y:Point x="1254.0891637842483" y="2141.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n9" target="n8">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="22.255511288180628" tx="0.0" ty="-36.89999999999999"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n14" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="71.09598296988618" tx="29.165603119895025" ty="-42.83545816733067">
+            <y:Point x="2160.0282491805415" y="1721.412761816999"/>
+            <y:Point x="2267.1430586496426" y="1721.412761816999"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n15" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="50.24365989261264" tx="-29.16560311989501" ty="-42.83545816733067">
+            <y:Point x="1902.2123761646685" y="1737.412761816999"/>
+            <y:Point x="2208.8118524098527" y="1737.412761816999"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n16" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="69.74872197408445" sy="42.83545816733067" tx="-87.49680935968503" ty="-42.83545816733067">
+            <y:Point x="1680.4896695673242" y="1769.412761816999"/>
+            <y:Point x="2150.4806461700628" y="1769.412761816999"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n17" target="n16">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="54.98539972012918" sy="42.83545816733067" tx="0.0" ty="-42.83545816733067">
+            <y:Point x="1440.3592838213053" y="1408.1095396092567"/>
+            <y:Point x="1610.7409475932395" y="1408.1095396092567"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n18" target="n15">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="42.835458167330685" tx="0.0" ty="-50.24365989261264"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n19" target="n14">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="42.83545816733067" tx="0.0" ty="-71.09598296988618"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n20" target="n19">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="62.18609180161693" sy="42.83545816733067" tx="0.0" ty="-42.83545816733067">
+            <y:Point x="1827.9246584424754" y="1408.1095396092567"/>
+            <y:Point x="2160.0282491805415" y="1408.1095396092567"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n20" target="n18">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="31.093045900808463" sy="42.83545816733067" tx="0.0" ty="-42.835458167330685">
+            <y:Point x="1796.8316125416673" y="1424.1095396092567"/>
+            <y:Point x="1902.2123761646685" y="1424.1095396092567"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e22" source="n35::n0" target="n21">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="50.07649418917032" sy="36.89999999999998" tx="0.0" ty="-36.90000000000009">
+            <y:Point x="522.5547433697117" y="455.9060997385698"/>
+            <y:Point x="797.3695190218111" y="455.9060997385698"/>
+            <y:Point x="797.3695190218111" y="1077.734589108827"/>
+            <y:Point x="1385.3738841011764" y="1077.734589108827"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n22" target="n22">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-120.50748515650594" sy="0.0" tx="0.0" ty="-31.87700946495866">
+            <y:Point x="886.799930690702" y="47.37700946495866"/>
+            <y:Point x="886.799930690702" y="0.0"/>
+            <y:Point x="1022.8074158472081" y="0.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e24" source="n23" target="n20">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.0" tx="0.0" ty="-42.83545816733067"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e25" source="n35::n1" target="n25">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="49.78098740371462" sy="38.59305692711453" tx="0.0" ty="-42.40968685826897">
+            <y:Point x="1034.081855631875" y="455.9060997385698"/>
+            <y:Point x="1185.519519021811" y="455.9060997385698"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e26" source="n35::n1" target="n24">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-49.78098740371462" sy="38.59305692711453" tx="0.0" ty="-42.908190425413295"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e27" source="n27" target="n11">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="85.63269858595709" tx="57.417760515884" ty="-42.83545816733067">
+            <y:Point x="1190.1330110853032" y="1928.8809185702867"/>
+            <y:Point x="1482.0317239821397" y="1928.8809185702867"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e28" source="n9" target="n12">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="37.919419846082064" sy="22.036761288180514" tx="0.0" ty="-42.83545816733067">
+            <y:Point x="902.5409229948774" y="1693.1522370144432"/>
+            <y:Point x="1518.7711063233987" y="1693.1522370144432"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e29" source="n35::n0" target="n13">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="16.69216472972346" sy="36.89999999999998" tx="-54.98539972012918" ty="-56.592233504252135">
+            <y:Point x="489.17031267260484" y="1550.241082689685"/>
+            <y:Point x="492.1642780318407" y="1550.241082689685"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e30" source="n28" target="n13">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-42.28383158234661" sy="-33.85574497978928" tx="-73.31386629350558" ty="56.592233504252135">
+            <y:Point x="462.5821160108932" y="1706.9090123513647"/>
+            <y:Point x="473.83581145846426" y="1706.9090123513647"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e31" source="n29" target="n13">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="33.85574497978925" tx="54.98539972012918" ty="-56.592233504252135"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e32" source="n30" target="n29">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="33.85574497978925" tx="-64.97642669537136" ty="-33.85574497978925">
+            <y:Point x="874.5365825138746" y="1399.1298264217153"/>
+            <y:Point x="537.1585685169158" y="1399.1298264217153"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e33" source="n20" target="n29">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-62.186091801616925" sy="42.83545816733067" tx="64.97642669537134" ty="-33.85574497978925">
+            <y:Point x="1703.5524748392418" y="1447.1298264217153"/>
+            <y:Point x="667.1114219076586" y="1447.1298264217153"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e34" source="n17" target="n29">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-54.98539972012918" sy="42.835458167330685" tx="0.0" ty="-33.85574497978925">
+            <y:Point x="1330.388484381047" y="1415.1298264217153"/>
+            <y:Point x="602.1349952122872" y="1415.1298264217153"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e35" source="n13" target="n28">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="56.592233504252135" tx="42.28383158234661" ty="-33.85574497978928"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e36" source="n31" target="n27">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="22.255511288180628" tx="0.0" ty="-85.63269858595709"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e37" source="n8" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-47.208655820882655" sy="36.90000000000009" tx="-21.31559485703633" ty="-36.90000000000009">
+            <y:Point x="817.4128473279127" y="1896.1482199843294"/>
+            <y:Point x="763.0996777519699" y="1896.1482199843294"/>
+            <y:Point x="763.0996777519699" y="2109.551834904948"/>
+            <y:Point x="1339.351543212394" y="2109.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e38" source="n8" target="n32">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="47.20865582088268" sy="36.89999999999999" tx="0.0" ty="-29.400000000000006">
+            <y:Point x="911.830158969678" y="1960.8809185702867"/>
+            <y:Point x="1172.0826142599067" y="1960.8809185702867"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e39" source="n8" target="n10">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="36.89999999999999" tx="0.0" ty="-42.83545816733067">
+            <y:Point x="864.6215031487953" y="1976.8809185702867"/>
+            <y:Point x="906.4933285456207" y="1976.8809185702867"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e40" source="n8" target="n11">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="94.41731164176535" sy="36.89999999999999" tx="-57.417760515884" ty="-42.83545816733067">
+            <y:Point x="959.0388147905607" y="1944.8809185702867"/>
+            <y:Point x="1367.1962029503716" y="1944.8809185702867"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e41" source="n33" target="n9">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-27.15795076535025" sy="22.255511288180628" tx="0.0" ty="-22.255511288180628">
+            <y:Point x="1135.8171238120162" y="1538.6408489980765"/>
+            <y:Point x="864.6215031487953" y="1538.6408489980765"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e42" source="n33" target="n31">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="27.15795076535025" sy="22.255511288180628" tx="0.0" ty="-22.255511288180628"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e43" source="n20" target="n33">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-31.093045900808463" sy="42.83545816733067" tx="0.0" ty="-22.255511288180628">
+            <y:Point x="1734.6455207400504" y="1463.1298264217153"/>
+            <y:Point x="1162.9750745773667" y="1463.1298264217153"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e44" source="n35::n3" target="n49">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="38.59305692711456" tx="68.10979571000735" ty="-37.0">
+            <y:Point x="1546.156423783716" y="471.9060997385698"/>
+            <y:Point x="2457.9099952122874" y="471.9060997385698"/>
+            <y:Point x="2457.9099952122874" y="2262.551834904948"/>
+            <y:Point x="1851.5225687000725" y="2262.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e45" source="n37" target="n36">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="36.89999999999999" tx="44.923639731880314" ty="-36.89999999999999"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e46" source="n26" target="n37">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="22.784997940063477" tx="0.0" ty="-36.89999999999999">
+            <y:Point x="1717.1548364821288" y="487.9060997385698"/>
+            <y:Point x="1683.6218999741923" y="487.9060997385698"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e47" source="n22" target="n34">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="31.87700946495866" tx="0.75" ty="-63.08823242187498"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e48" source="n34" target="n35">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.75" sy="63.088232421875006" tx="0.75" ty="-97.48780798245124"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e49" source="n26" target="n38">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="22.499333699544273" sy="22.784997940063477" tx="0.0" ty="-133.41424468512864">
+            <y:Point x="1739.6541701816727" y="392.391522118057"/>
+            <y:Point x="1944.3480904503826" y="392.391522118057"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e50" source="n38" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="133.41424468512866" tx="87.4968093596849" ty="-42.83545816733067">
+            <y:Point x="1944.3480904503826" y="1195.4183364621367"/>
+            <y:Point x="2282.370312672605" y="1195.4183364621367"/>
+            <y:Point x="2282.370312672605" y="1650.3167788471126"/>
+            <y:Point x="2325.4742648894326" y="1650.3167788471126"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e51" source="n35::n2" target="n36">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="71.29957556057627" tx="-44.92363973188026" ty="-36.89999999999998">
+            <y:Point x="1268.8849952122873" y="487.9060997385698"/>
+            <y:Point x="1593.7742809265733" y="487.9060997385698"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n39::e0" source="n39::n0" target="n39::n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.0" tx="0.0" ty="-37.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n39::e1" source="n39::n1" target="n39::n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.0" tx="0.0" ty="-37.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e52" source="n51" target="n50">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-36.9677155592082" sy="37.0" tx="0.0" ty="-37.0">
+            <y:Point x="1746.4450574308567" y="2819.6306053828084"/>
+            <y:Point x="1686.1935269583191" y="2819.6306053828084"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e53" source="n26" target="n40">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-22.499333699544273" sy="22.784997940063477" tx="0.0" ty="-41.91118329112476">
+            <y:Point x="1694.6555027825843" y="455.9060997385698"/>
+            <y:Point x="1446.5715031487953" y="455.9060997385698"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e54" source="n40" target="n39">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="41.91118329112476" tx="103.75436507936524" ty="-166.37646484375"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e55" source="n24" target="n39">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="42.908190425413295" tx="-102.25436507936502" ty="-166.37646484375">
+            <y:Point x="934.519915847208" y="679.2285348491118"/>
+            <y:Point x="1240.5627729900652" y="679.2285348491118"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e56" source="n41" target="n43">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="31.866489527722706" sy="16.877497353309536" tx="0.0" ty="-37.0">
+            <y:Point x="1829.4717228352479" y="1179.4183364621367"/>
+            <y:Point x="2370.140153942446" y="1179.4183364621367"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="18.80078125" x="521.3316811332515" xml:space="preserve" y="-1.8065743312201903">Да<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="15.48003774648163" distanceToCenter="false" position="left" ratio="0.9816220035700136" segment="1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e57" source="n39" target="n41">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="103.75436507936524" sy="166.37646484375" tx="0.0" ty="-33.783747353309536">
+            <y:Point x="1446.5715031487953" y="1061.734589108827"/>
+            <y:Point x="1797.6052333075254" y="1061.734589108827"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e58" source="n43" target="n49">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.0" tx="40.865877426004545" ty="-37.0">
+            <y:Point x="2370.140153942446" y="2246.551834904948"/>
+            <y:Point x="1824.2786504160695" y="2246.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e59" source="n49" target="n52">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.000000000000014" tx="0.0" ty="-71.09598296988624"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e60" source="n52" target="n53">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="71.09598296988624" tx="0.0" ty="-66.44340226904377"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e61" source="n53" target="n51">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="66.44340226904377" tx="0.0" ty="-37.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e62" source="n51" target="n54">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="36.96771555920821" sy="37.0" tx="0.0" ty="-33.818351891334856">
+            <y:Point x="1820.3804885492732" y="2819.6306053828084"/>
+            <y:Point x="1880.6320190218112" y="2819.6306053828084"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e63" source="n21" target="n44">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="36.89999999999999" tx="0.0" ty="-28.777186812846708"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e64" source="n44" target="n17">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="28.777186812846708" tx="0.0" ty="-42.835458167330685"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="24.8359375" x="9.892893409389671" xml:space="preserve" y="-4.397289446895911">Нет<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="22.310879425401122" distanceToCenter="true" position="left" ratio="-9.36771506562952" segment="-1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e65" source="n41" target="n23">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-31.866425809525026" sy="16.87749735342959" tx="0.0" ty="-37.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="24.8359375" x="15.9454130677384" xml:space="preserve" y="22.37224863463439">Нет<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="15.945459537722112" distanceToCenter="false" position="left" ratio="0.027173714624699044" segment="-1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e66" source="n20" target="n42">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="42.83545816733067" tx="45.72147021406545" ty="-37.0">
+            <y:Point x="1765.7385666408586" y="1753.412761816999"/>
+            <y:Point x="2105.8147571170493" y="1753.412761816999"/>
+            <y:Point x="2105.8147571170493" y="2087.7163767376173"/>
+            <y:Point x="1842.756068600956" y="2087.7163767376173"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e67" source="n46" target="n42">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.000000000000014" tx="-45.721470214065334" ty="-37.000000000000014"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e68" source="n47" target="n46">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.000000000000014" tx="22.860735107032667" ty="-37.000000000000014"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e69" source="n16" target="n46">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-69.74872197408445" sy="42.83545816733067" tx="-22.860735107032724" ty="-37.0">
+            <y:Point x="1540.9922256191553" y="1693.1522370144432"/>
+            <y:Point x="1655.419519021811" y="1693.1522370144432"/>
+            <y:Point x="1655.419519021811" y="1880.2482199843296"/>
+            <y:Point x="1728.4524347084293" y="1880.2482199843296"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e70" source="n48" target="n46">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.000000000000014" tx="68.582205321098" ty="-37.000000000000014">
+            <y:Point x="1998.8715031487955" y="1880.2482199843296"/>
+            <y:Point x="1819.8953751365598" y="1880.2482199843296"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e71" source="n12" target="n46">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="60.57408970075352" sy="42.83545816733067" tx="-68.582205321098" ty="-37.000000000000014">
+            <y:Point x="1579.3451960241523" y="1896.2482199843296"/>
+            <y:Point x="1682.730964494364" y="1896.2482199843296"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e72" source="n42" target="n49">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.000000000000014" tx="13.621959142001486" ty="-37.000000000000014"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e73" source="n55" target="n49">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.000000000000014" tx="-40.86587742600443" ty="-37.000000000000014">
+            <y:Point x="860.6909475932397" y="2278.551834904948"/>
+            <y:Point x="1742.5468955640608" y="2278.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e74" source="n56" target="n49">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.000000000000014" tx="-13.621959142001472" ty="-37.000000000000014">
+            <y:Point x="1091.229042831335" y="2262.551834904948"/>
+            <y:Point x="1769.7908138480634" y="2262.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e75" source="n39::n2" target="n49">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="37.0" tx="-68.10979571000735" ty="-37.0">
+            <y:Point x="1342.8171380694303" y="1061.734589108827"/>
+            <y:Point x="1259.9028523551447" y="1061.734589108827"/>
+            <y:Point x="1259.9028523551447" y="1431.1298264217153"/>
+            <y:Point x="715.0996777519699" y="1431.1298264217153"/>
+            <y:Point x="715.0996777519699" y="2294.551834904948"/>
+            <y:Point x="1715.3029772800578" y="2294.551834904948"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e76" source="n57" target="n30">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="36.99999999999997" tx="-51.94917732328672" ty="-33.85574497978925">
+            <y:Point x="607.0984872757795" y="1300.4183364621367"/>
+            <y:Point x="822.5874051905879" y="1300.4183364621367"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e77" source="n58" target="n30">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="36.99999999999997" tx="51.94917732328673" ty="-33.85574497978925">
+            <y:Point x="1141.97467775197" y="1300.4183364621367"/>
+            <y:Point x="926.4857598371613" y="1300.4183364621367"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e78" source="n59" target="n30">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="36.99999999999997" tx="0.0" ty="-33.85574497978925"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e79" source="n35::n0" target="n60">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-50.076494189170376" sy="36.89999999999999" tx="0.0" ty="-79.88233923114308">
+            <y:Point x="422.401754991371" y="455.9060997385698"/>
+            <y:Point x="129.5262650535572" y="455.9060997385698"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e80" source="n35::n0" target="n61">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-16.69216472972346" sy="36.89999999999999" tx="0.0" ty="-35.236448511173336">
+            <y:Point x="455.7860844508179" y="471.9060997385698"/>
+            <y:Point x="381.3615825138747" y="471.9060997385698"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources>
+      <y:Resource id="1" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="68px" height="46px" viewBox="-0.064 -0.075 68 46" enable-background="new -0.064 -0.075 68 46"
+	 xml:space="preserve"&gt;
+&lt;defs&gt;
+&lt;/defs&gt;
+&lt;radialGradient id="SVGID_1_" cx="478.8413" cy="1991.2729" r="21.6001" gradientTransform="matrix(1.15 0 0 1 -526.6598 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#F2F2F2"/&gt;
+	&lt;stop  offset="1" style="stop-color:#8D8D8D"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_1_)" d="M10.263,1.903c0-0.987,0.807-1.794,1.794-1.794h43.279c0.986,0,1.795,0.807,1.795,1.794v26.978
+	c0,0.987-0.809,1.794-1.795,1.794h-43.28c-0.987,0-1.794-0.807-1.794-1.794L10.263,1.903L10.263,1.903z"/&gt;
+&lt;path display="none" fill="none" stroke="#3C89C9" stroke-width="0.2185" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M10.263,1.903c0-0.987,0.807-1.794,1.794-1.794h43.279c0.986,0,1.795,0.807,1.795,1.794v26.978c0,0.987-0.809,1.794-1.795,1.794
+	h-43.28c-0.987,0-1.794-0.807-1.794-1.794L10.263,1.903L10.263,1.903z"/&gt;
+&lt;radialGradient id="SVGID_2_" cx="455.894" cy="1983.9624" r="47.8462" fx="493.5344" fy="1977.5143" gradientTransform="matrix(1.1935 0 0 1 -509.6731 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="1" style="stop-color:#999999"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_2_)" d="M11.18,2.819c0-0.987,0.807-1.794,1.794-1.794h41.649c0.986,0,1.795,0.807,1.795,1.794v24.943
+	c0,0.985-0.809,1.794-1.795,1.794H12.974c-0.987,0-1.794-0.809-1.794-1.794V2.819z"/&gt;
+&lt;radialGradient id="SVGID_3_" cx="456.8843" cy="1984.0386" r="30.6699" gradientTransform="matrix(1.1923 0 0 1 -510.1314 -1982.4023)" gradientUnits="userSpaceOnUse"&gt;
+	&lt;stop  offset="0" style="stop-color:#9CD7FF"/&gt;
+	&lt;stop  offset="1" style="stop-color:#3C89C9"/&gt;
+&lt;/radialGradient&gt;
+&lt;path fill="url(#SVGID_3_)" d="M11.689,3.228c0-0.987,0.807-1.794,1.794-1.794h40.633c0.986,0,1.795,0.807,1.795,1.794v24.126
+	c0,0.986-0.809,1.794-1.795,1.794H13.483c-0.987,0-1.794-0.809-1.794-1.794V3.228z"/&gt;
+&lt;path opacity="0.24" fill="#F2F2F2" d="M11.689,21.472V3.228c0-0.987,0.807-1.794,1.794-1.794h40.633
+	c0.986,0,1.795,0.807,1.795,1.794v9.454c0,0.987-10.518,5.21-18.256,6.795C29.917,21.062,11.689,21.472,11.689,21.472z"/&gt;
+&lt;linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="131.3501" y1="-212.2612" x2="131.3501" y2="-170.6274" gradientTransform="matrix(1 0 0 -1 -97.6001 -165.0498)"&gt;
+	&lt;stop  offset="0" style="stop-color:#4D4D4D"/&gt;
+	&lt;stop  offset="0.0667" style="stop-color:#717171"/&gt;
+	&lt;stop  offset="0.069" style="stop-color:#757575"/&gt;
+	&lt;stop  offset="0.0831" style="stop-color:#8C8C8C"/&gt;
+	&lt;stop  offset="0.0996" style="stop-color:#9E9E9E"/&gt;
+	&lt;stop  offset="0.1196" style="stop-color:#AAAAAA"/&gt;
+	&lt;stop  offset="0.1466" style="stop-color:#B1B1B1"/&gt;
+	&lt;stop  offset="0.2121" style="stop-color:#B3B3B3"/&gt;
+	&lt;stop  offset="1" style="stop-color:#C5C5C5"/&gt;
+&lt;/linearGradient&gt;
+&lt;path fill="url(#SVGID_4_)" d="M58.385,32.234c-0.689-0.856-2.154-1.559-3.254-1.559H12c-1.1,0-2.552,0.711-3.227,1.579
+	l-7.546,9.717C0,43.55,0.042,43.785,0,44.55v0.125c0.056,0.393,0.311,1.002,1.248,1.002h64.75c0.75,0.002,1.5-0.252,1.5-1.002V44.55
+	c0-0.813,0-0.813-1.254-2.559L58.385,32.234z"/&gt;
+&lt;path opacity="0.23" fill="#F2F2F2" enable-background="new    " d="M58.385,32.234c-0.689-0.856-2.154-1.559-3.254-1.559H12
+	c-1.1,0-2.552,0.711-3.227,1.579l-7.055,9.085l58.098-7.33L58.385,32.234z"/&gt;
+&lt;path fill="#6E6E6E" d="M59.75,37.205c0.344,0.431,0.172,0.783-0.377,0.783H8.249c-0.55,0-0.742-0.369-0.427-0.819l2.786-3.986
+	c0.315-0.45,1.023-0.819,1.573-0.819h42.729c0.551,0,1.279,0.354,1.623,0.783L59.75,37.205z"/&gt;
+&lt;path fill="#6E6E6E" d="M40.43,41.906c0.072,0.217-0.057,0.395-0.285,0.395H26.727c-0.229,0-0.364-0.18-0.3-0.398l0.822-2.826
+	c0.064-0.221,0.303-0.399,0.532-0.399h11.167c0.229,0,0.475,0.179,0.547,0.396L40.43,41.906z"/&gt;
+&lt;/svg&gt;
+</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>
