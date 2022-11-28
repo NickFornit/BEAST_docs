@@ -373,21 +373,6 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
     </node>
     <node id="n23">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="84.81937371653794" width="198.69834663929953" x="2116.035747315271" y="661.4010116911192"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="69.34375" x="64.67729831964971" xml:space="preserve" y="4.0">PsychicInit()</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="177.28515625" x="2.0" xml:space="preserve" y="30.701171875">Инициализация блока Психики
-<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
-          <y:StyleProperties>
-            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
-          </y:StyleProperties>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n24">
-      <data key="d6">
         <y:SVGNode>
           <y:Geometry height="45.56999588012695" width="67.49800109863281" x="2171.2631026252866" y="2990.8056677046807"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
@@ -408,7 +393,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:SVGNode>
       </data>
     </node>
-    <node id="n25">
+    <node id="n24">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="171.26539717191417" width="354.9795728198318" x="1851.4744993043698" y="1837.7703071775777"/>
@@ -430,7 +415,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n26">
+    <node id="n25">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="67.71148995957856" width="169.13532632938643" x="511.9327336607036" y="1889.5472607837455"/>
@@ -445,7 +430,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n27">
+    <node id="n26">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="67.7114899595785" width="194.9292800861141" x="596.3048044013874" y="1562.6843785093115"/>
@@ -460,7 +445,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n28">
+    <node id="n27">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="67.7114899595785" width="155.84753196986014" x="550.869091157927" y="1382.0134621746502"/>
@@ -475,7 +460,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n29">
+    <node id="n28">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.terminator">
           <y:Geometry height="44.511022576361256" width="119.70310245912736" x="1969.112734484722" y="1708.216053338137"/>
@@ -485,7 +470,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n30">
+    <node id="n29">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="58.80000000000001" width="215.39136520584339" x="1562.514238031999" y="2635.847409162507"/>
@@ -499,7 +484,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n31">
+    <node id="n30">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.terminator">
           <y:Geometry height="44.511022576361256" width="108.631803061401" x="1676.5817175169184" y="1574.2846122009205"/>
@@ -509,68 +494,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n32" yfiles.foldertype="group">
-      <data key="d4" xml:space="preserve"/>
-      <data key="d6">
-        <y:ProxyAutoBoundsNode>
-          <y:Realizers active="0">
-            <y:GroupNode>
-              <y:Geometry height="126.17646484374998" width="459.06388888888887" x="1482.346626984127" y="134.2443730556069"/>
-              <y:Fill color="#F5F5F5" transparent="false"/>
-              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="459.06388888888887" x="0.0" xml:space="preserve" y="0.0">Сканирование состояния Beast - pulsActions()</y:NodeLabel>
-              <y:Shape type="roundrectangle"/>
-              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
-              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="1.5591530200254056E-4" right="0" rightF="3.62501941026494E-4" top="0" topF="0.0"/>
-            </y:GroupNode>
-            <y:GroupNode>
-              <y:Geometry height="50.0" width="50.0" x="0.0" y="60.0"/>
-              <y:Fill color="#F5F5F5" transparent="false"/>
-              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.02685546875" x="-4.513427734375" xml:space="preserve" y="0.0">Folder 1</y:NodeLabel>
-              <y:Shape type="roundrectangle"/>
-              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
-              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-            </y:GroupNode>
-          </y:Realizers>
-        </y:ProxyAutoBoundsNode>
-      </data>
-      <graph edgedefault="directed" id="n32:">
-        <node id="n32::n0">
-          <data key="d6">
-            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-              <y:Geometry height="73.79999999999998" width="194.20721150405416" x="1732.2029418670206" y="171.6208378993569"/>
-              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#00CCFF" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.353515625" x="55.42684793952708" xml:space="preserve" y="4.0">saveLifeTime()</y:NodeLabel>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="181.76171875" x="2.0" xml:space="preserve" y="30.701171875">Сохранить время жизни в файл
-каждые 10 сек<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
-              <y:StyleProperties>
-                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
-              </y:StyleProperties>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n32::n1">
-          <data key="d6">
-            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-              <y:Geometry height="73.79999999999998" width="204.85603737574525" x="1497.346782899429" y="171.6208378993569"/>
-              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="53.353515625" x="75.75126087537274" xml:space="preserve" y="4.0">inaction()</y:NodeLabel>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="177.548828125" x="2.0" xml:space="preserve" y="30.701171875">Запуск функций, выполняемых
-в режиме тишины<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
-              <y:StyleProperties>
-                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
-              </y:StyleProperties>
-            </y:GenericNode>
-          </data>
-        </node>
-      </graph>
-    </node>
-    <node id="n33" yfiles.foldertype="group">
+    <node id="n31" yfiles.foldertype="group">
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
@@ -598,8 +522,8 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
           </y:Realizers>
         </y:ProxyAutoBoundsNode>
       </data>
-      <graph edgedefault="directed" id="n33:">
-        <node id="n33::n0">
+      <graph edgedefault="directed" id="n31:">
+        <node id="n31::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="73.79999999999998" width="133.53731783778767" x="1435.574991874757" y="352.19687830368315"/>
@@ -613,22 +537,25 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
             </y:GenericNode>
           </data>
         </node>
-        <node id="n33::n1">
+        <node id="n31::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-              <y:Geometry height="77.18611385422906" width="199.12394961485847" x="1914.6042950338406" y="350.5038213765687"/>
+              <y:Geometry height="101.85541927374283" width="220.45956511281634" x="1914.6042950338406" y="350.5038213765687"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="101.37109375" x="48.876427932429124" xml:space="preserve" y="4.0">ReflexCountPuls()</y:NodeLabel>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="187.662109375" x="2.0" xml:space="preserve" y="30.701171875">Коррекция текущего состояния
-гомеостаза и базового контекста<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="101.37109375" x="59.54423568140828" xml:space="preserve" y="4.0">ReflexCountPuls()</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="217.31640625" x="2.0" xml:space="preserve" y="30.701171875">1. Коррекция текущего состояния
+гомеостаза и базовых контекстов
+2. PsychicInit() - Инициализация блока
+Психики
+<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
               </y:StyleProperties>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n33::n2">
+        <node id="n31::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="142.5991511211525" width="310.0440802078096" x="1095.5307376738729" y="317.7973027431069"/>
@@ -648,7 +575,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
             </y:GenericNode>
           </data>
         </node>
-        <node id="n33::n3">
+        <node id="n31::n3">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="77.18611385422909" width="184.49801494442522" x="2143.728373480168" y="350.50382137656857"/>
@@ -663,13 +590,13 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
             </y:GenericNode>
           </data>
         </node>
-        <node id="n33::n4">
+        <node id="n31::n4">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
               <y:Geometry height="142.59915112115246" width="285.49184565043595" x="1599.1124105081153" y="317.7973027431069"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="121.609375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="267.87109375" x="8.810375950218031" xml:space="preserve" y="10.494888060576216">1. GetSleepCondition(): проверка состояния сна
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="121.609375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="271.36328125" x="7.064282200218031" xml:space="preserve" y="10.494888060576216">1. GetSleepCondition() - проверка состояния сна
 2. TermineteActionCountPuls():
 если активирован сон прекратить
 выполнять все простейшие рефлексы
@@ -682,7 +609,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </node>
       </graph>
     </node>
-    <node id="n34">
+    <node id="n32">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="73.79999999999998" width="179.69455892752126" x="48.23168879020761" y="870.5459674680312"/>
@@ -696,7 +623,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n35">
+    <node id="n33">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="73.79999999999998" width="146.30999809846867" x="20.000159680924398" y="666.9106985493881"/>
@@ -711,7 +638,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n36">
+    <node id="n34">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="266.8284893702573" width="315.1419268500188" x="699.5171318130858" y="570.3964538642595"/>
@@ -739,7 +666,7 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
         </y:GenericNode>
       </data>
     </node>
-    <node id="n37" yfiles.foldertype="group">
+    <node id="n35" yfiles.foldertype="group">
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
@@ -768,8 +695,8 @@ ActivationTypeSensor = 1<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelM
           </y:Realizers>
         </y:ProxyAutoBoundsNode>
       </data>
-      <graph edgedefault="directed" id="n37:">
-        <node id="n37::n0">
+      <graph edgedefault="directed" id="n35:">
+        <node id="n35::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="74.0" width="206.50872769472585" x="1947.3853186923193" y="870.4459674680312"/>
@@ -784,7 +711,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n37::n1">
+        <node id="n35::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="74.0" width="206.50872769472585" x="1947.3853186923193" y="964.4459674680312"/>
@@ -799,7 +726,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
             </y:GenericNode>
           </data>
         </node>
-        <node id="n37::n2">
+        <node id="n35::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="74.0" width="206.50872769472585" x="1947.3853186923193" y="1058.445967468031"/>
@@ -816,7 +743,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </node>
       </graph>
     </node>
-    <node id="n38">
+    <node id="n36">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="83.82236658224951" width="263.4051422894019" x="1045.6593336172039" y="661.8995152582634"/>
@@ -831,7 +758,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n39">
+    <node id="n37">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="67.56749470661907" width="127.46595811089026" x="1927.7795209445549" y="1178.445967468031"/>
@@ -841,7 +768,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n40">
+    <node id="n38">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.00000000000003" width="182.88588085626134" x="2077.360234175044" y="2220.6066206841533"/>
@@ -856,7 +783,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n41">
+    <node id="n39">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.0" width="144.5394419198935" x="2131.7068663416403" y="1277.0134621746502"/>
@@ -871,7 +798,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n42">
+    <node id="n40">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="57.554373625693415" width="111.2077753345659" x="1084.0262710628758" y="1285.2362753618036"/>
@@ -881,7 +808,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n43">
+    <node id="n41">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.small_entity">
           <y:Geometry height="119.2443730556069" width="374.26939797356766" x="1863.136332759248" y="0.0"/>
@@ -899,7 +826,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n44">
+    <node id="n42">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.00000000000003" width="182.88588085626134" x="1321.543964333774" y="2045.8711625168226"/>
@@ -914,7 +841,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n45">
+    <node id="n43">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.00000000000003" width="206.50872769472585" x="1136.0361123431135" y="1886.4030057635346"/>
@@ -929,7 +856,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n46">
+    <node id="n44">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.00000000000003" width="182.88588085626134" x="1372.5451548099645" y="1886.4030057635346"/>
@@ -944,7 +871,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n47">
+    <node id="n45">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.00000000000003" width="163.46350970401772" x="2234.880546735293" y="2341.6066206841533"/>
@@ -959,7 +886,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n48">
+    <node id="n46">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.0" width="155.3863650180322" x="2081.448484157651" y="2856.690811431551"/>
@@ -974,7 +901,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n49">
+    <node id="n47">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.0" width="147.87086223683283" x="2242.676870468885" y="2751.690811431551"/>
@@ -989,7 +916,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n50">
+    <node id="n48">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="142.19196593977247" width="286.84538587905854" x="2173.1896086477727" y="2436.6120409536907"/>
@@ -1009,7 +936,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n51">
+    <node id="n49">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="132.88680453808755" width="286.84538587905854" x="2173.1896086477727" y="2598.8040068934633"/>
@@ -1028,7 +955,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n52">
+    <node id="n50">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="67.63670378266971" width="173.49056580079667" x="2266.8348758297607" y="2859.8724595402164"/>
@@ -1043,7 +970,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n53">
+    <node id="n51">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.00000000000003" width="177.98752889023945" x="2345.7344101580547" y="2220.6066206841533"/>
@@ -1058,7 +985,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n54">
+    <node id="n52">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="74.00000000000003" width="223.0884305737701" x="2553.722054554385" y="2220.6066206841533"/>
@@ -1072,7 +999,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n55">
+    <node id="n53">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="73.99999999999994" width="204.85603737574525" x="258.9267432168893" y="1277.0134621746502"/>
@@ -1087,7 +1014,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n56">
+    <node id="n54">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="73.99999999999994" width="204.85603737574525" x="793.8029336930798" y="1277.0134621746502"/>
@@ -1102,7 +1029,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n57">
+    <node id="n55">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="73.99999999999994" width="270.0201325984931" x="493.78279084361054" y="1277.0134621746502"/>
@@ -1117,7 +1044,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n58">
+    <node id="n56">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="159.76467846228616" width="259.0525301071144" x="1339.064607962316" y="623.928359318245"/>
@@ -1138,7 +1065,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n59">
+    <node id="n57">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
           <y:Geometry height="70.47289702234667" width="184.61736396511128" x="1628.117508493635" y="668.5742500382148"/>
@@ -1153,8 +1080,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:GenericNode>
       </data>
     </node>
-    <node id="n60">
-      <data key="d5"/>
+    <node id="n58">
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="64.63800048828125" width="56.554100036621094" x="83.72929918803865" y="356.7778780595425"/>
@@ -1174,6 +1100,23 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
             <y:SVGContent refid="2"/>
           </y:SVGModel>
         </y:SVGNode>
+      </data>
+    </node>
+    <node id="n59">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="112.970856578282" width="220.45956511281634" x="1579.0306322065007" y="129.4745886569185"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.357421875" x="73.55107161890805" xml:space="preserve" y="4.0">pulsActions()</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="202.263671875" x="2.0" xml:space="preserve" y="30.701171875">1. saveLifeTime() - сохранить время
+жизни в файл каждые 10 сек
+2. inaction() - запуск функций,
+выполняемых в режиме тишины<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
       </data>
     </node>
     <edge id="e0" source="n1" target="n0">
@@ -1402,7 +1345,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n33::n0" target="n19">
+    <edge id="e18" source="n31::n0" target="n19">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-16.692164729723572" sy="36.89999999999998" tx="0.0" ty="-36.90000000000009">
@@ -1441,30 +1384,17 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n33::n1" target="n23">
+    <edge id="e21" source="n31::n1" target="n22">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="49.78098740371462" sy="38.59305692711453" tx="0.0" ty="-42.40968685826897">
-            <y:Point x="2063.9472572449845" y="490.8964538642594"/>
-            <y:Point x="2215.3849206349205" y="490.8964538642594"/>
-          </y:Path>
+          <y:Path sx="-55.11489127820408" sy="50.92770963687143" tx="0.0" ty="-42.908190425413295"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n33::n1" target="n22">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="-49.78098740371462" sy="38.59305692711453" tx="0.0" ty="-42.908190425413295"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e23" source="n25" target="n10">
+    <edge id="e22" source="n24" target="n10">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="85.63269858595709" tx="57.417760515884" ty="-42.83545816733067">
@@ -1477,7 +1407,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e24" source="n33::n0" target="n11">
+    <edge id="e23" source="n31::n0" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-50.07649418917026" sy="36.89999999999998" tx="-54.98539972012918" ty="-56.592233504252135">
@@ -1492,7 +1422,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e25" source="n26" target="n11">
+    <edge id="e24" source="n25" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-42.28383158234661" sy="-33.85574497978928" tx="-73.31386629350558" ty="56.592233504252135">
@@ -1505,7 +1435,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n27" target="n11">
+    <edge id="e25" source="n26" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="33.85574497978925" tx="54.98539972012918" ty="-56.592233504252135"/>
@@ -1515,7 +1445,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n28" target="n27">
+    <edge id="e26" source="n27" target="n26">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="33.85574497978925" tx="-64.97642669537136" ty="-33.85574497978925"/>
@@ -1525,7 +1455,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e28" source="n18" target="n27">
+    <edge id="e27" source="n18" target="n26">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-62.186091801616925" sy="42.83545816733067" tx="64.97642669537134" ty="-33.85574497978925">
@@ -1538,7 +1468,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n15" target="n27">
+    <edge id="e28" source="n15" target="n26">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-54.98539972012918" sy="42.835458167330685" tx="0.0" ty="-33.85574497978925">
@@ -1551,7 +1481,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n11" target="n26">
+    <edge id="e29" source="n11" target="n25">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="56.592233504252135" tx="42.28383158234661" ty="-33.85574497978928"/>
@@ -1561,7 +1491,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n29" target="n25">
+    <edge id="e30" source="n28" target="n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="22.255511288180628" tx="0.0" ty="-85.63269858595709"/>
@@ -1571,7 +1501,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e32" source="n7" target="n6">
+    <edge id="e31" source="n7" target="n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-29.505409888051645" sy="36.90000000000009" tx="0.0" ty="-36.90000000000009">
@@ -1584,7 +1514,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n7" target="n9">
+    <edge id="e32" source="n7" target="n9">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="29.505409888051673" sy="36.89999999999999" tx="0.0" ty="-42.83545816733067">
@@ -1597,7 +1527,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n7" target="n10">
+    <edge id="e33" source="n7" target="n10">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="88.51622966415502" sy="36.89999999999999" tx="-57.417760515884" ty="-42.83545816733067">
@@ -1610,7 +1540,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e35" source="n31" target="n8">
+    <edge id="e34" source="n30" target="n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-27.15795076535025" sy="22.255511288180628" tx="0.0" ty="-22.255511288180628"/>
@@ -1620,7 +1550,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e36" source="n31" target="n29">
+    <edge id="e35" source="n30" target="n28">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="27.15795076535025" sy="22.255511288180628" tx="0.0" ty="-22.255511288180628">
@@ -1633,7 +1563,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e37" source="n18" target="n31">
+    <edge id="e36" source="n18" target="n30">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="31.093045900808463" sy="42.83545816733067" tx="0.0" ty="-22.255511288180628"/>
@@ -1643,7 +1573,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e38" source="n33::n3" target="n47">
+    <edge id="e37" source="n31::n3" target="n45">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="38.59305692711456" tx="13.621959142001288" ty="-37.0">
@@ -1656,7 +1586,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n35" target="n34">
+    <edge id="e38" source="n33" target="n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="36.89999999999999" tx="-44.923639731880314" ty="-36.89999999999999"/>
@@ -1666,7 +1596,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e40" source="n60" target="n35">
+    <edge id="e39" source="n58" target="n33">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-18.851366678873696" sy="32.319000244140625" tx="0.0" ty="-36.89999999999999"/>
@@ -1676,27 +1606,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e41" source="n20" target="n32">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="31.87700946495866" tx="0.75" ty="-63.088232421875006"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e42" source="n32" target="n33">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.75" sy="63.088232421875006" tx="0.75" ty="-97.48780798245127"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e43" source="n60" target="n36">
+    <edge id="e40" source="n58" target="n34">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="32.319000244140625" tx="0.0" ty="-133.41424468512864">
@@ -1709,7 +1619,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e44" source="n36" target="n2">
+    <edge id="e41" source="n34" target="n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="133.41424468512866" tx="-87.49680935968502" ty="-42.83545816733067">
@@ -1726,7 +1636,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e45" source="n33::n2" target="n34">
+    <edge id="e42" source="n31::n2" target="n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="71.29957556057627" tx="44.923639731880314" ty="-36.89999999999998">
@@ -1739,7 +1649,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n37::e0" source="n37::n0" target="n37::n1">
+    <edge id="n35::e0" source="n35::n0" target="n35::n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.0" tx="0.0" ty="-37.0"/>
@@ -1749,7 +1659,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n37::e1" source="n37::n1" target="n37::n2">
+    <edge id="n35::e1" source="n35::n1" target="n35::n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.0" tx="0.0" ty="-37.0"/>
@@ -1759,7 +1669,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e46" source="n49" target="n48">
+    <edge id="e43" source="n47" target="n46">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-36.9677155592082" sy="37.0" tx="0.0" ty="-37.0">
@@ -1772,7 +1682,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e47" source="n60" target="n38">
+    <edge id="e44" source="n58" target="n36">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="18.851366678873696" sy="32.319000244140625" tx="0.0" ty="-41.91118329112476">
@@ -1785,7 +1695,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e48" source="n38" target="n37">
+    <edge id="e45" source="n36" target="n35">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="41.91118329112476" tx="-102.25436507936524" ty="-166.3764648437499">
@@ -1798,7 +1708,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e49" source="n22" target="n37">
+    <edge id="e46" source="n22" target="n35">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="42.908190425413295" tx="-86.25436507936524" ty="-166.3764648437499"/>
@@ -1808,7 +1718,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e50" source="n39" target="n41">
+    <edge id="e47" source="n37" target="n39">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="31.86648952772248" sy="16.877497353309536" tx="0.0" ty="-37.0">
@@ -1822,7 +1732,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e51" source="n37" target="n39">
+    <edge id="e48" source="n35" target="n37">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-59.127182539682735" sy="166.37646484375" tx="0.0" ty="-33.783747353309536"/>
@@ -1832,7 +1742,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e52" source="n41" target="n47">
+    <edge id="e49" source="n39" target="n45">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.0" tx="-40.86587742600432" ty="-37.0">
@@ -1845,7 +1755,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e53" source="n47" target="n50">
+    <edge id="e50" source="n45" target="n48">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.000000000000014" tx="0.0" ty="-71.09598296988624"/>
@@ -1855,7 +1765,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e54" source="n50" target="n51">
+    <edge id="e51" source="n48" target="n49">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="71.09598296988624" tx="0.0" ty="-66.44340226904377"/>
@@ -1865,7 +1775,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e55" source="n51" target="n49">
+    <edge id="e52" source="n49" target="n47">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="66.44340226904377" tx="0.0" ty="-37.0"/>
@@ -1875,7 +1785,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e56" source="n49" target="n52">
+    <edge id="e53" source="n47" target="n50">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="36.96771555920821" sy="37.0" tx="0.0" ty="-33.818351891334856"/>
@@ -1885,7 +1795,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e57" source="n19" target="n42">
+    <edge id="e54" source="n19" target="n40">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="36.89999999999999" tx="0.0" ty="-28.777186812846708"/>
@@ -1895,7 +1805,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e58" source="n42" target="n15">
+    <edge id="e55" source="n40" target="n15">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="28.777186812846708" tx="0.0" ty="-42.835458167330685"/>
@@ -1906,7 +1816,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e59" source="n39" target="n21">
+    <edge id="e56" source="n37" target="n21">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-31.86648952772248" sy="16.877497353309536" tx="0.0" ty="-37.0">
@@ -1920,7 +1830,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e60" source="n18" target="n40">
+    <edge id="e57" source="n18" target="n38">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="62.18609180161684" sy="42.83545816733067" tx="45.72147021406545" ty="-37.0">
@@ -1935,7 +1845,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e61" source="n44" target="n40">
+    <edge id="e58" source="n42" target="n38">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.000000000000014" tx="-45.721470214065334" ty="-37.000000000000014">
@@ -1948,7 +1858,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e62" source="n45" target="n44">
+    <edge id="e59" source="n43" target="n42">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.000000000000014" tx="-22.860735107032667" ty="-37.000000000000014">
@@ -1961,7 +1871,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e63" source="n14" target="n44">
+    <edge id="e60" source="n14" target="n42">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="69.74872197408445" sy="42.83545816733067" tx="-68.58220532109794" ty="-37.0">
@@ -1976,7 +1886,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e64" source="n46" target="n44">
+    <edge id="e61" source="n44" target="n42">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.000000000000014" tx="22.860735107032667" ty="-37.000000000000014">
@@ -1989,7 +1899,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e65" source="n40" target="n47">
+    <edge id="e62" source="n38" target="n45">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.000000000000014" tx="-68.10979571000739" ty="-37.000000000000014">
@@ -2002,7 +1912,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e66" source="n53" target="n47">
+    <edge id="e63" source="n51" target="n45">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.000000000000014" tx="40.865877426004445" ty="-37.000000000000014">
@@ -2015,7 +1925,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e67" source="n54" target="n47">
+    <edge id="e64" source="n52" target="n45">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.000000000000014" tx="68.1097957100074" ty="-37.000000000000014">
@@ -2028,7 +1938,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e68" source="n37::n2" target="n47">
+    <edge id="e65" source="n35::n2" target="n45">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="37.0" tx="-13.621959142001288" ty="-37.0">
@@ -2043,7 +1953,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e69" source="n55" target="n28">
+    <edge id="e66" source="n53" target="n27">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="36.99999999999997" tx="-51.94917732328672" ty="-33.85574497978925">
@@ -2056,7 +1966,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e70" source="n56" target="n28">
+    <edge id="e67" source="n54" target="n27">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="36.99999999999997" tx="51.94917732328673" ty="-33.85574497978925">
@@ -2069,7 +1979,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e71" source="n57" target="n28">
+    <edge id="e68" source="n55" target="n27">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="36.99999999999997" tx="0.0" ty="-33.85574497978925"/>
@@ -2079,7 +1989,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e72" source="n33::n0" target="n58">
+    <edge id="e69" source="n31::n0" target="n56">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="16.69216472972346" sy="36.89999999999999" tx="0.0" ty="-79.88233923114308">
@@ -2092,7 +2002,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e73" source="n33::n0" target="n59">
+    <edge id="e70" source="n31::n0" target="n57">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="50.076494189170376" sy="36.89999999999999" tx="0.0" ty="-35.236448511173336">
@@ -2105,8 +2015,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e74" source="n3" target="n24">
-      <data key="d9"/>
+    <edge id="e71" source="n3" target="n23">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="29.40000000000009" tx="-16.874500274658203" ty="-22.784997940063477">
@@ -2119,8 +2028,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e75" source="n52" target="n24">
-      <data key="d9"/>
+    <edge id="e72" source="n50" target="n23">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="33.818351891334856" tx="16.874500274658203" ty="-22.784997940063477">
@@ -2133,8 +2041,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e76" source="n6" target="n1">
-      <data key="d9"/>
+    <edge id="e73" source="n6" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="36.89999999999999" tx="0.0" ty="-48.005420269537126"/>
@@ -2144,8 +2051,7 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e77" source="n7" target="n44">
-      <data key="d9"/>
+    <edge id="e74" source="n7" target="n42">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-88.51622966415502" sy="36.89999999999999" tx="68.582205321098" ty="-37.000000000000014">
@@ -2158,11 +2064,32 @@ ID Базовых контекстов<y:LabelModel><y:ErdAttributesNodeLabelMod
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e78" source="n0" target="n30">
-      <data key="d9"/>
+    <edge id="e75" source="n0" target="n29">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-56.64941371621626" sy="29.400000000000006" tx="0.0" ty="-29.400000000000006"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e76" source="n20" target="n59">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e77" source="n59" target="n31">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
