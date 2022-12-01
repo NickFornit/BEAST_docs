@@ -36,8 +36,8 @@
           <y:Geometry height="52.0" width="275.5496025136977" x="416.3351403058986" y="115.41706816519962"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="248.423828125" x="13.562887194348889" xml:space="preserve" y="9.298828125">1. Не запоминать слова с числом знаков &lt;4
-2. Не запомнить фразы с числом слов &gt;6<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="251.7578125" x="11.895895006848889" xml:space="preserve" y="9.298828125">1. Не запоминать слова с числом знаков &lt; 4
+2. Не запомнить фразы с числом слов &gt; 6<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -159,14 +159,14 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="635.9707390530069" width="448.15634076061747" x="607.7146953173785" y="534.6370598491595"/>
+              <y:Geometry height="566.1874768539811" width="417.21157776187465" x="609.2067914153833" y="494.6370598491595"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="448.15634076061747" x="0.0" xml:space="preserve" y="0.0">Структура дерева слов</y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="417.21157776187465" x="0.0" xml:space="preserve" y="0.0">Структура дерева слов</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="31" topF="31.41234552421122"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="0.0" y="60.0"/>
@@ -185,7 +185,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="622.7146953173785" y="603.4258702171207"/>
+              <y:Geometry height="40.0" width="80.0" x="624.2067914153833" y="532.0135246929095"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.625" x="33.6875" xml:space="preserve" y="10.6494140625">П<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -195,7 +195,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="622.7146953173785" y="673.4258702171207"/>
+              <y:Geometry height="40.0" width="80.0" x="624.2067914153833" y="592.6329226916145"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="33.998046875" xml:space="preserve" y="10.6494140625">Р<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -205,7 +205,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="622.7146953173785" y="748.1161712177683"/>
+              <y:Geometry height="40.0" width="80.0" x="624.2067914153833" y="657.2028507911275"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.625" x="33.6875" xml:space="preserve" y="10.6494140625">И<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -215,7 +215,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n3">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="622.7146953173785" y="822.8064722184158"/>
+              <y:Geometry height="40.0" width="80.0" x="624.2067914153833" y="721.7727788906406"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="33.998046875" xml:space="preserve" y="10.6494140625">В<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -225,7 +225,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n4">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="622.7146953173785" y="897.4967732190634"/>
+              <y:Geometry height="40.0" width="80.0" x="624.2067914153833" y="791.7727788906406"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="33.998046875" xml:space="preserve" y="10.6494140625">Е<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -235,7 +235,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n5">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="622.7146953173785" y="967.4967732190634"/>
+              <y:Geometry height="40.0" width="80.0" x="624.2067914153833" y="861.7727788906406"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="11.330078125" x="34.3349609375" xml:space="preserve" y="10.6494140625">Т<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -247,7 +247,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n6">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="815.4226940207822" y="603.4258702171207"/>
+              <y:Geometry height="40.0" width="80.0" x="786.5330086706922" y="532.0135246929095"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="10.990234375" x="34.5048828125" xml:space="preserve" y="10.6494140625">К<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -257,7 +257,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n7">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="947.3671298279961" y="603.4258702171207"/>
+              <y:Geometry height="40.0" width="80.0" x="887.1882035597124" y="532.0135246929095"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.126953125" x="33.9365234375" xml:space="preserve" y="10.6494140625">Д<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -267,7 +267,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n8">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="815.4226940207822" y="673.4258702171207"/>
+              <y:Geometry height="40.0" width="80.0" x="786.5330086706922" y="602.0135246929095"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="33.998046875" xml:space="preserve" y="10.6494140625">А<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -277,7 +277,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n9">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="815.4226940207822" y="748.1161712177683"/>
+              <y:Geometry height="40.0" width="80.0" x="786.5330086706922" y="676.7038256935571"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="10.990234375" x="34.5048828125" xml:space="preserve" y="10.6494140625">К<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -289,10 +289,10 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n10">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.small_entity">
-              <y:Geometry height="102.82469104842241" width="225.38850612492166" x="815.4226940207822" y="936.0844276948521"/>
+              <y:Geometry height="102.82469104842241" width="225.38850612492166" x="786.0298630523364" y="906.6755829810137"/>
               <y:Fill color="#E8EEF7" color2="#FFFF00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="92.20703125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="218.16015625" x="3.6141749374608025" xml:space="preserve" y="5.308829899211219">Первый уровень дерева:
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="92.20703125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="218.16015625" x="3.6141749374608025" xml:space="preserve" y="5.308829899211332">Первый уровень дерева:
 буквы А...Я, A...Z, 0...9, спец символы.
 Следующие ветвления-узлы:
 отдельные буквы/цифры/символы.
@@ -307,7 +307,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n11">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="947.3671298279961" y="673.4258702171207"/>
+              <y:Geometry height="40.0" width="80.0" x="887.1882035597124" y="602.0135246929095"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="33.998046875" xml:space="preserve" y="10.6494140625">Е<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -317,7 +317,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n12">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="947.3671298279961" y="748.1161712177683"/>
+              <y:Geometry height="40.0" width="80.0" x="887.1882035597124" y="676.7038256935571"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="11.875" x="34.0625" xml:space="preserve" y="10.6494140625">Л<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -327,7 +327,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n13">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="947.3671298279961" y="822.8064722184158"/>
+              <y:Geometry height="40.0" width="80.0" x="887.1882035597124" y="751.3941266942046"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="33.998046875" xml:space="preserve" y="10.6494140625">А<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -339,7 +339,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n14">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="622.7146953173785" y="1041.5560410896665"/>
+              <y:Geometry height="40.0" width="80.0" x="624.2067914153833" y="931.7727788906406"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.625" x="33.6875" xml:space="preserve" y="10.6494140625">И<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -349,7 +349,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n15">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="622.7146953173785" y="1111.5560410896665"/>
+              <y:Geometry height="40.0" width="80.0" x="624.2067914153833" y="1001.7727788906407"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="10.990234375" x="34.5048828125" xml:space="preserve" y="10.6494140625">К<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -361,7 +361,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n16">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="702.7146953173785" y="673.4258702171207"/>
+              <y:Geometry height="40.0" width="80.0" x="704.2067914153833" y="602.0135246929095"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="13.333984375" x="33.3330078125" xml:space="preserve" y="10.6494140625">О<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -371,7 +371,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n17">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="702.7146953173785" y="743.4258702171207"/>
+              <y:Geometry height="40.0" width="80.0" x="704.2067914153833" y="672.0135246929095"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="10.990234375" x="34.5048828125" xml:space="preserve" y="10.6494140625">К<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -381,12 +381,12 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n9::n18">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="705.4226940207822" y="818.1161712177683"/>
+              <y:Geometry height="40.0" width="80.0" x="706.914790118787" y="746.7038256935571"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="12.00390625" x="33.998046875" xml:space="preserve" y="10.6494140625">А<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="107.0078125" x="33.998046875" xml:space="preserve" y="49.26701566249892">ID конечного узла:
-код слова ПОКА<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.07010659268452946" labelRatioY="-0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="9.26701566249892" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="107.0078125" x="-8.423576591923052" xml:space="preserve" y="49.26701566249892">ID конечного узла:
+код слова ПОКА<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0635041207259619" nodeRatioY="0.5" offsetX="0.0" offsetY="9.26701566249892" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -398,7 +398,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="500.0255138765558" width="423.7424603174603" x="151.7063701341761" y="622.8698685539127"/>
+              <y:Geometry height="422.9577151726762" width="423.7424603174603" x="151.7063701341761" y="637.8668215304644"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
               <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="423.7424603174603" x="0.0" xml:space="preserve" y="0.0">Структура дерева фраз</y:NodeLabel>
@@ -424,7 +424,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n10::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.small_entity">
-              <y:Geometry height="117.61857353324157" width="206.86536296022865" x="353.5832124635856" y="660.2463333976627"/>
+              <y:Geometry height="117.61857353324157" width="206.86536296022865" x="353.5832124635856" y="675.2432863742144"/>
               <y:Fill color="#E8EEF7" color2="#FFFF00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="106.908203125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="199.955078125" x="3.4551424176142405" xml:space="preserve" y="5.355185204120744">Первый уровень дерева:
@@ -443,7 +443,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n10::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="40.0" width="80.0" x="243.5829574357634" y="699.0556201642836"/>
+              <y:Geometry height="40.0" width="80.0" x="243.5829574357634" y="714.0525731408353"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="52.591796875" x="13.704101562500028" xml:space="preserve" y="10.6494140625">ПРИВЕТ<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -453,7 +453,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n10::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="40.0" width="80.0" x="243.5829574357634" y="792.8649069309042"/>
+              <y:Geometry height="40.0" width="80.0" x="243.5829574357634" y="780.5368530743928"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="25.984375" x="27.00781250000003" xml:space="preserve" y="10.6494140625">КАК<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -463,7 +463,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n10::n3">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="40.0" width="80.0" x="183.33335426116022" y="879.8649069309042"/>
+              <y:Geometry height="40.0" width="80.0" x="183.33335426116022" y="867.0308344293361"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="36.009765625" x="21.9951171875" xml:space="preserve" y="10.6494140625">ДЕЛА<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -476,7 +476,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n10::n4">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="40.0" width="80.0" x="480.4488304516364" y="879.8649069309042"/>
+              <y:Geometry height="40.0" width="80.0" x="480.4488304516364" y="867.0308344293361"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="37.29296875" x="21.353515625000057" xml:space="preserve" y="10.6494140625">ТВОИ<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -486,7 +486,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n10::n5">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="40.0" width="80.0" x="327.73057648338244" y="879.8649069309042"/>
+              <y:Geometry height="40.0" width="80.0" x="331.8910923563983" y="881.1993564909243"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="63.244140625" x="8.3779296875" xml:space="preserve" y="10.6494140625">ДЕЛИШКИ<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -499,13 +499,13 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
         <node id="n10::n6">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.terminator">
-              <y:Geometry height="40.0" width="80.0" x="383.4718463246523" y="1002.9684225559042"/>
+              <y:Geometry height="40.0" width="80.0" x="383.4718463246523" y="1001.7727788906407"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="36.009765625" x="21.9951171875" xml:space="preserve" y="10.6494140625">ДЕЛА<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.880859375" x="27.095905602301798" xml:space="preserve" y="56.82344424956432">ID конечного узла
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.880859375" x="-162.42332205906297" xml:space="preserve" y="-4.0517578125">ID конечного узла
 код фразы:
-ПРИВЕТ КАК ТВОИ ДЕЛА<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.14702568014149953" labelRatioY="-0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="16.82344424956426" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+ПРИВЕТ КАК ТВОИ ДЕЛА<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.5" labelRatioY="0.0" nodeRatioX="-0.5" nodeRatioY="0.0" offsetX="-12.542462684062968" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -563,7 +563,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
           <y:Path sx="0.0" sy="26.0" tx="9.881750106811523" ty="-23.443998336791992"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="18.80078125" x="-21.27838085365488" xml:space="preserve" y="-5.223606779502518">Да<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="11.878008017501157" distanceToCenter="true" position="right" ratio="-10.223616000000002" segment="-1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="18.80078125" x="5.407018412056118" xml:space="preserve" y="-3.928199048157296">Да<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="14.807391077923423" distanceToCenter="true" position="left" ratio="-8.92820826865479" segment="-1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -665,7 +665,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
     <edge id="e9" source="n5" target="n9">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="23.443998336791992" tx="-204.4515683264043" ty="-292.78131268158154"/>
+          <y:Path sx="0.0" sy="23.443998336791992" tx="-190.33438476531916" ty="-260.6552511268363"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="crows_foot_many"/>
           <y:BendStyle smoothed="false"/>
@@ -726,8 +726,8 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-26.666666666666515" sy="18.84375" tx="0.0" ty="-20.0">
-            <y:Point x="256.91629076909675" y="848.3649069309042"/>
-            <y:Point x="223.33335426116022" y="848.3649069309042"/>
+            <y:Point x="256.91629076909675" y="842.6150954601302"/>
+            <y:Point x="223.33335426116022" y="842.6150954601302"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -739,8 +739,8 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="26.666666666666742" sy="18.84375" tx="0.0" ty="-20.0">
-            <y:Point x="310.24962410243006" y="848.3649069309042"/>
-            <y:Point x="520.4488304516365" y="848.3649069309042"/>
+            <y:Point x="310.24962410243006" y="840.5910208799033"/>
+            <y:Point x="520.4488304516365" y="840.5910208799033"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -752,8 +752,8 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-20.0">
-            <y:Point x="520.4488304516365" y="987.4684225559042"/>
-            <y:Point x="423.4718463246523" y="987.4684225559042"/>
+            <y:Point x="520.4488304516365" y="985.766760245584"/>
+            <y:Point x="423.4718463246523" y="985.766760245584"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -765,8 +765,8 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-20.0">
-            <y:Point x="283.58295743576343" y="864.3649069309042"/>
-            <y:Point x="367.73057648338244" y="864.3649069309042"/>
+            <y:Point x="283.58295743576343" y="855.072964944733"/>
+            <y:Point x="371.8910923563983" y="855.072964944733"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -777,7 +777,7 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
     <edge id="e10" source="n6" target="n10">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="23.443998336791992" tx="68.03234126984125" ty="-250.0127569382779"/>
+          <y:Path sx="0.0" sy="23.443998336791992" tx="68.03234126984125" ty="-211.4788575863381"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="crows_foot_many"/>
           <y:BendStyle smoothed="false"/>
@@ -805,7 +805,6 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       </data>
     </edge>
     <edge id="n9::e11" source="n9::n5" target="n9::n14">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -816,7 +815,6 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       </data>
     </edge>
     <edge id="n9::e12" source="n9::n14" target="n9::n15">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -827,7 +825,6 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       </data>
     </edge>
     <edge id="n9::e13" source="n9::n6" target="n9::n8">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -838,7 +835,6 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       </data>
     </edge>
     <edge id="n9::e14" source="n9::n0" target="n9::n16">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -849,7 +845,6 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       </data>
     </edge>
     <edge id="n9::e15" source="n9::n16" target="n9::n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -860,7 +855,6 @@ count - число повторов с пульта<y:LabelModel><y:SmartNodeLab
       </data>
     </edge>
     <edge id="n9::e16" source="n9::n17" target="n9::n18">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
