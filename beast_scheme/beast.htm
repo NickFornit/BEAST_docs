@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Схема Beast</title>
+  <link rel="stylesheet" href="sys/common.css">
+</head>
+<body style="margin-left:20px;font-family:arial;font-size:14px;width:1000px;">
+<div style="position:relative;height:20px;margin-bottom:20px;">
+<a href="index.htm"><img src="img/home.png" style="position:absolute;top:0;left:0;" title="На главную."></a>
+<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Схема Beast</h1>
+</div>
+
+
+Схема Beast начинается с <a href="funcs/main.htm">Главной функции</a> и имеет несколько основных блоков:
+<li>Пакет lib – вспомогательные функции для работы с файлами, массивами и строками, в так же <a href="package/pul_out.htm">вывод действий на Пульт</a></li>
+<li>Пакет <a href="package/braine.htm">braine</a> - общая инициализация, водитель пульса, сохранение памяти</li>
+<li>Пакет <a href="package/gomeostas.htm"> gomeostas</a> - жизненные параметры Beast</li>
+<li>Пакет <a href="package/action_sensor.htm"> action_sensor</a> - детектор действий с Пульта</li>
+
+<li>Пакет <a href="package/word_sensor.htm">word_sensor</a> - детектор символов, слов и фраз
+<li>Пакет <a href="package/TerminalActions.htm">TerminalActions</a> - Выполнение действий, список возможных акций Beast</li>
+
+<li>Пакет <a href="package/sleep.htm">sleep</a> - состояние сна и бодрствования</li>
+
+<li>Пакет <a href="package/reflexes.htm"> reflexes</a> - безусловные и условные рефлексы</li>
+
+<li>Пакет <a href="package/psychic.htm"> psychic</a> - автоматизмы, Правила, Значимости, циклы осмысления.</li>
+<br>
+На самом деле пакет psychic имеет множество подразделов, которые объеденены в один пакет только из-за огромных неудобств, создаваемых в языке golang отсутствием защиты от цикличности испорта типа Include Once (какой есть практически у всех нормальных языков).<br>
+Поэтому условно разделим этит пакет на:<br>
+<li><a href="package/actions_image.htm">actions_image</a> - совокупные образы действий.</li>
+<li><a href="package/actions_images_mental.htm">actions_images_mental</a> - совокупные образы ментальных действий.</li>
+<li><a href="package/automatism_tree.htm">automatism_tree</a> - дерево автоматизмов.</li>
+<li><a href="package/automatizm.htm">automatizm</a> - автоматизмы.</li>
+<li><a href="package/base_state_image.htm">base_state_image</a> - Образ текущего состояния.</li>
+<li><a href="package/cerebellum.htm">cerebellum</a> - рефлексы мохжечка.</li>
+<li><a href="package/dominanta.htm">dominanta</a> - доминанта нерешенной проблемы.</li>
+<li><a href="package/emotions.htm">emotions</a> - эмоциональные контексты.</li>
+<li><a href="package/episodic_memory.htm">episodic_memory</a> - эпизодическая память.</li>
+<li><a href="package/importance.htm">importance</a> - образы объектов значимости.</li>
+<li><a href="package/mental_automatizm.htm">mental_automatizm</a> - ментальные автоматизмы.</li>
+<li><a href="package/mood.htm">mood</a> - образ ощущаемого настроения.</li>
+<li><a href="package/orientation_reflexes.htm">orientation_reflexes</a> - ориентировочный рефлекс.</li>
+<li><a href="package/purpose_genetic.htm">purpose_genetic</a> - потребности.</li>
+<li><a href="package/rules.htm">rules</a> - правила - как эффект от совершенных действий.</li>
+<li><a href="package/rules_mental.htm">rules_mental</a> - правила - как эффект от мыслительных действий.</li>
+<li><a href="package/short_term_memory.htm">short_term_memory</a> - кратковременная память.</li>
+<li><a href="package/trigger_and_action.htm">trigger_and_action</a> - отдельные правила - как эффект от совершенных действий.</li>
+<li><a href="package/trigger_and_action_mental.htm">trigger_and_action_mental</a> - отдельные правила - как эффект от произвольных действий.</li>
+<li><a href="package/understanding.htm">understanding</a> - понимание, осмысление ситуации: 4 уровня вовлеченности.</li>
+<li><a href="package/understanding_purpose_image.htm">understanding_purpose_image</a> - образ желаемой целия.</li>
+<li><a href="package/understanding_situation_image.htm">understanding_situation_image</a> - образ текущей ситуации.</li>
+<li><a href="package/understanding_tree.htm">understanding_tree</a> - дерево понимания.</li>
+<li><a href="package/verbal_Broca_img.htm">verbal_Broca_img</a> - словестные образы (область Брока).</li>
+
+
+
+
+
