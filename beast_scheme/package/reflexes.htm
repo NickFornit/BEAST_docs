@@ -11,7 +11,81 @@
 <h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Безусловные и условные рефлексы</h1>
 </div>
 
-Beast  
-  
-<li><a href="../funcs/xxxxx.htm">xxxxx</a></li>
-<li><a href="xxxxx.htm">xxxxxx</a></li>
+Здесь отрабатываются три вида рефлексов в следующей иерархической последовательности:<br>
+1. Условные рефлексы - на основе предыдущих безусловных (но не древних, а полных) или условных - связанных с новыми стимулами. Собираются в conditionReflexesIdArr<br>
+Каждый последующий вид рефлексов имеет приоритет над предыдущими, т.е. те не выполняются, если есть приоритетный.<br>
+2. Новые безусловные - с прописанными пусковыми стимулами. Собираются в geneticReflexesIdArr<br>
+3. Древние безусловные - у которых в условиях не прописаны пусковые стимулы. Собираются в oldReflexesIdArr<br>
+4. Древнейшие безусловные - с прошитой генетической целью (какие ID гомео-параметров улучшает действие рефлекса из http://go/pages/terminal_actions.php).<br>
+Активируется как действие по умолчанию при отсутствии всех вышеуказанных типов рефлексов.<br>
+<br>
+Для образования условных рефлексов необходимо:<br>
+1. Совпадение во времени (сочетание) какого-либо индифферентного раздражителя (условного)
+	с раздражителем, вызывающим соответствующий безусловный рефлекс (безусловный раздражитель).<br>
+2. Необходимо, чтобы действие условного раздражителя несколько предшествовало действию безусловного.<br>
+3. Условный раздражитель должен быть не вызывающим значительной самостоятельной реакции.<br>
+4. Рефлекс возникает только после нескольких повторений сочетаний 2 (news_detectior.go: if tempImg.Count > 2 - в func updateNewsConditions(rank int)),
+это избавляет от случайных связей.<br>
+И возникаеющий образ рефлекса гасится, если долго не подтверждаются сочетания, за ночь - точно.<br>
+Условия затухания условного рефлекса:<br>
+1. Долгое отсутствие пускового стимула (узла ветки, с которого он запускается) – это легко реализуется добавлением в структуру у.рефлекса lastActivation int – в числе пульсов и времени протухания истекших рефлексов;<br>
+2. Действие конкурентных раздражителей – т.е. подавление конкурентными рефлексами и автоматизмами – т.е. если есть более значимый рефлекс или любой автоматизм на тот же пусковой стимул, то он блокирует у.рефлекс. В структуре у.рефлекса есть его ранг (число цепочки родителей), чем он выше, тем рефлекс приоритетнее среди других. Автоматизм приоритетнее любого рефлекса.<br>
+3. При отсутствии “подкрепления” после совершенного действия. Но безусловные рефлексы не угасают при этом, они безусловны и по отношению к тому, что происходит после действия и их “подкрепление” – обусловлено наследственной эволюцией: безусловные рефлексы постоянны, даны от рождения и не угасают на протяжении всей жизни.. У условных рефлексов точно та же функциональная задача, только с новыми стимулами, значит, им так же не нужно последующее подкреплением. В литературе часто путается отсутствие подкрепления с дезадаптация, а так же условные рефлексы и автоматизмы, образующиеся при осознании.<br>
+4. Разные условные рефлексы без подкрепления угасают с неодинаковой скоростью. Более "молодые" и непрочные условные рефлексы угасают быстрее, чем более "старые", прочные условно-рефлекторные связи (func conditionRexlexFound).<br>
+<br>
+Условный рефлекс может образовываться на основе безусловного
+или на основе имеющегося безусловного,
+используя действия исходного рефлекса для новых условий.
+Такие цепи рефлексов ничем не ограничены.<br>
+
+РЕЗЮМЕ<br>
+1. Усл.рефлекс возникает там, где нет безусловного на основе нового стимула N,
+привзяывая к нему действия того рефлекса (условного или безусловного),
+которое вызывало реакцию ПОСЛЕ данного нового стимула M.<br>
+2. Но темерь если в восприятии появляется стимул N,
+то вызываемый им условный рефлекс перекрывает все рефлексы более низкого уровня,
+в том числе условные меньшего уровня.<br>
+Так что в структуре бесусловного рефлекса есть параметр: rank int,
+который увеличивается, если реакция наследуется от условного рефлекса
+и тогда рефлекс с рангом выше, перекрывает все рангом ниже.
+По умолчаню у безусловных рефлексов rank равен 0.<br>
+<br>  
+<li><a href="../funcs/ReflexCountPuls.htm">ReflexCountPuls</a> - коррекция текущего состояния гомеостаза и базового контекста с каждым пульсом</li>
+<li><a href="../funcs/setOldActiveCurTriggerStimulsVal.htm">setOldActiveCurTriggerStimulsVal</a> - Активация дерва рефлексов при любом изменении условий с проверкой по каждому пульсу</li>
+<li><a href="../funcs/ActiveFromAction.htm">ActiveFromAction</a> - активировать дерево атовматизмов действием</li>
+<li><a href="../funcs/ActiveFromPhrase.htm">ActiveFromPhrase</a> - активировать дерево фразой</li>
+<li><a href="../funcs/getConditionsArr.htm">getConditionsArr</a> - создание иерархии образов контекстов условий и пусковых стимулов в виде ID образов</li>
+<li><a href="../funcs/activeReflexTree.htm">activeReflexTree</a> - распознавание рефлексов в дереве рефлексов</li>
+<li><a href="../funcs/sortingForActions.htm">sortingForActions</a> - ортировка действий рефлексов по убыванию актуальной значимости их целей</li>
+<li><a href="../funcs/checkIgnorOnly.htm">checkIgnorOnly</a> - Индикатор реакции игнорирования</li>
+<li><a href="../funcs/GetActualReflexAction.htm">GetActualReflexAction</a> - сразу после активации дерева передать инфу для Психики</li>
+<li><a href="../funcs/createNewReflexNode.htm">createNewReflexNode</a> - Создать новый узел дерева рефлексов</li>
+<li><a href="../funcs/loadReflexTree.htm">loadReflexTree</a> - загрузить записанное в файле дерево</li>
+<li><a href="../funcs/saveReflexTree.htm">saveReflexTree</a> - сохранить дерево рефлексов</li>
+<li><a href="../funcs/ConditionsDetection.htm">ConditionsDetection</a> - распознавание условий в дереве рефлексов, нахождение ветки с данными условиями данного рефлекса</li>
+<li><a href="../funcs/addGeneticReflexesToTree.htm">addGeneticReflexesToTree</a> - Сразу создать и добавить безусловный рефлекс в дерево, если таких узлов еще нет.</li>
+<li><a href="../funcs/findGeneticReflexFromCondinion.htm">findGeneticReflexFromCondinion</a> - найти рефлекс по условиям</li>
+<li><a href="../funcs/findAndExecuteSimpeReflex.htm">findAndExecuteSimpeReflex</a> - найти и выполнить простейший безусловный рефлекс</li>
+<li><a href="../funcs/TerminateGeneticAllReflaxActions.htm">TerminateGeneticAllReflaxActions</a> - выдать на Пульт подряд акции массива ID БЕЗУСЛОВНЫХ рефлексов</li>
+<li><a href="../funcs/ExpensesGomeostatParametersAfterAction.htm">ExpensesGomeostatParametersAfterAction</a> - изменение жизанных параметров при действии</li>
+<li><a href="../funcs/IsBlockingMotorsAction.htm">IsBlockingMotorsAction</a> - Блокировка рефлексорных действий из Психики или во сне</li>
+<li><a href="../funcs/toRunRefleses.htm">toRunRefleses</a> - запустить готовые к выполнению рефлексы</li>
+<li><a href="../funcs/CreateNewTriggerStimulsImage.htm">CreateNewTriggerStimulsImage</a> - оздать новое сочетание пусковых стимулов если такого еще нет</li>
+<li><a href="../funcs/SaveTriggerStimulsArr.htm">SaveTriggerStimulsArr</a> - сохранить образы сочетаний пусковых стимулов</li>
+<li><a href="../funcs/loadTriggerStimulsArr.htm">loadTriggerStimulsArr</a> - загрузить образы сочетаний пусковых стимулов</li>
+<li><a href="../funcs/createNewlastTriggerStimulsTempID.htm">createNewlastTriggerStimulsTempID</a> - создать образ сочетаний пусковых стимулов</li>
+<li><a href="../funcs/updateNewsConditions.htm">updateNewsConditions</a> - Детектор нового выявляет новые условия, причинного (предшествовавшего имеющемуся рефлесу) стимула, пока не приводящего к рефлексу.</li>
+<li><a href="../funcs/CreateNewGeneticReflex.htm">CreateNewGeneticReflex</a> - создание нового безусловного рефлекса, если такого еще нет.</li>
+<li><a href="../funcs/loadGeneticReflexes.htm">loadGeneticReflexes</a> - загрузка безусловных рефлексов из файла хранения</li>
+<li><a href="../funcs/SaveGeneticReflexes.htm">SaveGeneticReflexes</a> - Сохранить в файл безусловные рефлексы</li>
+<li><a href="../funcs/FormingConditionsRefleaxFromList.htm">FormingConditionsRefleaxFromList</a> - формировать условные рефлексы на основе списка фраз-синонимов</li>
+<li><a href="../funcs/conditionRexlexFound.htm">conditionRexlexFound</a> - есть ли условный рефлекс при активации дерева</li>
+<li><a href="../funcs/findConditionsReflesFromImgID.htm">findConditionsReflesFromImgID</a> - попробовать найти другие образы типа TriggerStimuls, упрощая фразу из массива фраз</li>
+<li><a href="../funcs/findConditionsReflesFromPrase.htm">findConditionsReflesFromPrase</a> - поиск образа у-рефлекса</li>
+<li><a href="../funcs/getRightConditionReflexesFrom3.htm">getRightConditionReflexesFrom3</a> - выбор наиболее близкого по условиям рефлекса из массива с данным пусковым стимулом</li>
+<li><a href="../funcs/CreateNewConditionReflex.htm">CreateNewConditionReflex</a> - создание нового условного рефлекса, если такого еще нет</li>
+<li><a href="../funcs/SaveConditionReflex.htm">SaveConditionReflex</a> - сохранить в файле имеющиеся условные рефлексы</li>
+<li><a href="../funcs/loadConditionReflexes.htm">loadConditionReflexes</a> - загрузка условных рефлексов из файла</li>
+<li><a href="../funcs/checkReflexLifeTime.htm">checkReflexLifeTime</a> - Угас ли рефлекс или его можно использовать?</li>
+<li><a href="../funcs/RunMakeAutomatizmsFromReflexes.htm">RunMakeAutomatizmsFromReflexes</a> - для всех условных рефлексов создавать ветку дерева автоматизма если такой еще нет и создавать автоматизм.</li>
+<li><a href="../funcs/RunMakeAutomatizmsFromGeneticReflexes.htm">RunMakeAutomatizmsFromGeneticReflexes</a> - для всех безусловных рефлексов создавать ветку дерева автоматизма если такой еще нет и создавать автоматизм.</li>

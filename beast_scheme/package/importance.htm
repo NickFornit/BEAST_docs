@@ -2,16 +2,41 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Образы объектов значимост</title>
+  <title>Образы объектов значимости</title>
   <link rel="stylesheet" href="sys/common.css">
 </head>
 <body style="margin-left:20px;font-family:arial;font-size:14px;width:1000px;">
 <div style="position:relative;height:20px;margin-bottom:20px;">
 <a href="../index.htm"><img src="../img/home.png" style="position:absolute;top:0;left:0;" title="На главную."></a>
-<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Образы объектов значимост</h1>
+<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Образы объектов значимости</h1>
 </div>
 
-Beast  
-  
-<li><a href="../funcs/xxxxx.htm">xxxxx</a></li>
-<li><a href="xxxxx.htm">xxxxxx</a></li>
+Значимость элементов восприятия - как объекта произвольного внимания:
+того из всего воспринимаемого, что имеет наибольшую значимость
+т.к. именно наибольшая значимость должна осмысливаться.<br>
+
+Кроме того, значимости объектов - это и есть модель понимания данного объекта внимания -
+его значимость в разных условиях и то, какие действия могут быть совершены при этом.<br>
+
+Сохраняется в файле importance.txt в формате ID|NodeAID|NodePID|Type|ObjectID|Value<br>
+
+Значимость - величина от -10 0 до 10, приобретаемая объектов внимания в данной ситуации
+- берется из результата пробных действий и связывается ос всеми компонентами воспринимаемого в этих условиях
+функцией setImportance().<br>
+
+Оценке значимости подлежат элементы действия оператора:
+кнопки воздействия, фразы и отдельные слова, принимающие значимость фразы.<br>
+
+Значимость всегда определяется в контексте всех предшествующих условий,
+т.е. специфична для активностей деревьев автоматизмов и понимания.<br>
+
+При каждом вызове consciousness определяется текущий объект наибольшой значимости в воспринимаемом -
+в функции определения текущей Цели getMentalPurpose().<br>
+<br>  
+<li><a href="../funcs/createNewlastImportanceID.htm">createNewlastImportanceID</a> - создать новый образ значимости объекта восприятия если такого еще нет</li>
+<li><a href="../funcs/Saveimportance.htm">Saveimportance</a> - сохранить Образы Importance</li>
+<li><a href="../funcs/loadImportance.htm">loadImportance</a> - загрузить образы Importance</li>
+<li><a href="../funcs/getObjectsImportanceValue.htm">getObjectsImportanceValue</a> - значимость ID объекта внимания в текущих условиях</li>
+<li><a href="../funcs/setImportance.htm">setImportance</a> - Фиксация значимости объекта ОБъективного восприятия всех декларированных видов в данных условиях</li>
+<li><a href="../funcs/getGreatestImportance.htm">getGreatestImportance</a> - найти наиболее значащие обхекты в данных условиях</li>
+<li><a href="../funcs/getTopAttentionObject.htm">getTopAttentionObject</a> - выбрать один, самый актуальный объект</li>

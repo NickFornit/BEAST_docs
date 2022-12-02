@@ -11,7 +11,47 @@
 <h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Автоматизмы</h1>
 </div>
 
-Beast  
-  
-<li><a href="../funcs/xxxxx.htm">xxxxx</a></li>
-<li><a href="xxxxx.htm">xxxxxx</a></li>
+Автоматизмы, могут совершать внешние действия или внутренние произвольные действия.
+К ветке дерева может быть прикреплено сколько угодно автоматизмов  GetMotorsAutomatizmListFromTreeId(branchID)<br>
+но только один из автоматизмов, прикрепленных к ветке, может иметь Belief=2 - проверенное собственное знание.<br>
+Автоматизмы могут быть и не привязаны к конкретной ветке дерева, а быть привязаны к отдельным значениям AutomatizmNode:<br>
+- к ID образа действий с пульта ActivityID и тогда branchID начинается с 1000000,
+сохраняются в карте AutomatizmIdFromActionId<br>
+- к ID фразы VerbalID  и тогда branchID начинается с 2000000,
+сохраняются в карте AutomatizmIdFromPhraseId<br>
+<br>
+Для каждого действия brain\reflexes\terminete_action.go задается "сила" действия в градации от 1 до 10, которая передается наПульт словами:<br>
+Максимально (сила=10), wwww (сила=8)", "Очень сильно (сила=9), ... Едва (сила=1).
+При этом пропорционально расходуется энергия и могут происходить другие изменения гоместаза.<br>
+Такой результат сопоставляется с допустимым сразу при действии и корректируется установкой рефлекса мозжечка.<br>
+<br>
+Две области моторного терминала уровня психики:<br>
+1. Область Брока VerbalFromIdArr=make(map[int]*Verbal)
+отвечает за смысл распознанных слов и словосочетаний,
+за конструирование собственных словосочетаний,
+за моторное использование сло и словосочетаний.
+За все ответственная структура - образ осмысленных слов и сочетаний.<br>
+<br>
+2. Область моторных действий ActivityFromIdArr=make(map[int]*Activity)
+отвечает за смысл распознанных действий с Пульта,
+за конструирование собственных последовательностей действий,
+за моторное использование действий.
+За все ответственная структура - образ осмысленных действий и их сочетаний.<br>
+
+
+
+<br>  
+<li><a href="../funcs/createNewAutomatizmID.htm">createNewAutomatizmID</a> - создать новый автоматизм, если такого еще нет</li>
+<li><a href="../funcs/SaveAutomatizm.htm">SaveAutomatizm</a> - сохранить в файле</li>
+<li><a href="../funcs/loadAutomatizm.htm">loadAutomatizm</a> - загрузить из файла</li>
+<li><a href="../funcs/RumAutomatizm.htm">RumAutomatizm</a> - Запуск автоматизма с передачей строки на Пульт</li>
+<li><a href="../funcs/TerminateMotorAutomatizmActions.htm">TerminateMotorAutomatizmActions</a> - совершить МОТОРНОЕ (http://go/pages/terminal_actions.php) действие</li>
+<li><a href="../funcs/TerminatePraseAutomatizmActions.htm">TerminatePraseAutomatizmActions</a> - совершить МОТОРНОЕ (ВЫДАТЬ ФРАЗУ) действие</li>
+<li><a href="../funcs/expensesGomeostatParametersAfterAction.htm">expensesGomeostatParametersAfterAction</a> - изменение гомео-параметров при действии: сила действия корректирует воздействие на параметр гомеостаза</li>
+<li><a href="../funcs/getAutomatizmFromNodeID.htm">getAutomatizmFromNodeID</a> - Не раздумывая, а рефлексторно используя имеющуюся информацию, ВЫБРАТЬ ЛУЧШИЙ АВТОМАТИЗМ для узла дерева автоматизмов</li>
+<li><a href="../funcs/SetAutomatizmBelief.htm">SetAutomatizmBelief</a> - Только один из автоматизмов, прикрепленных к ветке или образу, может иметь Belief=2 - проверенное собственное знание</li>
+<li><a href="../funcs/createNodeUnattachedAutomatizm.htm">createNodeUnattachedAutomatizm</a> - формирование не привязанных к узлу автоматизмов при активации дерева - для всех фраз - и для всех действий на основе привязанного автоматизма, чтобы другие ветки могли пользоваться при разных условиях.</li>
+<li><a href="../funcs/FormingMirrorAutomatizmFromList.htm">FormingMirrorAutomatizmFromList</a> - Формирование зеркальных автоматизмов на основе списка ответов</li>
+<li><a href="../funcs/FormingMirrorAutomatizmFromTempList.htm">FormingMirrorAutomatizmFromTempList</a> - Формирование зеркальных автоматизмов на основе общего шаблона ответов</li>
+<li><a href="../funcs/createNewMirrorAutomatizm.htm">createNewMirrorAutomatizm</a> - создание зеркального автоматизма, повторяющего действия оператора в данных условиях в ответ на действия sourceAtmzm - причина ответа оператора</li>
+<li><a href="../funcs/provokatorMirrorAutomatizm.htm">provokatorMirrorAutomatizm</a> - в случае отсуствия автоматизма в данных условиях - послать оператору те же стимулы, чтобы посмотреть его реакцию.</li>

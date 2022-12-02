@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85cee7b9-4990-46f0-bf09-f5319bf040be" name="Default Changelist" comment="" />
+    <list default="true" id="85cee7b9-4990-46f0-bf09-f5319bf040be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/beast_scheme/beast.htm" beforeDir="false" afterPath="$PROJECT_DIR$/beast_scheme/beast.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beast_scheme/funcs/SetActionFromPult.htm" beforeDir="false" afterPath="$PROJECT_DIR$/beast_scheme/funcs/SetActionFromPult.htm" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -19,5 +23,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="281" key="FileChooserDialogImpl" timestamp="1669956278407">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="776" y="281" key="FileChooserDialogImpl/0.0.1920.1019/-1920.0.1920.1019/1920.0.1920.1019@0.0.1920.1019" timestamp="1669956278407" />
   </component>
 </project>

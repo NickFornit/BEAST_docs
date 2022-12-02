@@ -11,7 +11,64 @@
 <h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Ментальные автоматизмы</h1>
 </div>
 
-Beast  
-  
-<li><a href="../funcs/xxxxx.htm">xxxxx</a></li>
-<li><a href="xxxxx.htm">xxxxxx</a></li>
+Автоматизмы "внутренних", мыслительных действий:<br>
+1 - активация настроения Mood в дереве понимания 1 2 3 (отражает -1 0 1 UnderstandingNode.Mood)<br>
+	2 - активация эмоции EmotionID в дереве понимания (UnderstandingNode.EmotionID)<br>
+	3 - активация PurposeImage в дереве понимания (UnderstandingNode.PurposeID)<br>
+	4 - запуск информационной функции (безусловного рефлекса внутренних действий)<br>
+	5 - запуск моторного автоматизма<br>
+	6 - запуск Доминанты<br>
+	7 - создание новой Доминанты<br>
+<br>
+Переходы на следующий автоматизм от предыдущего в цепи 
+с ветвлением в зависимости от BranchID узла дерева моторных автоматизмов AutomatizmNode
+позволяют:<br>
+1. убрать NextID из структуры ментальных автоматизмов и сделать автоматизмы универсальными<br>
+2. делать ветвление следующего звена в цепочке автоматизмв в зависимости от активной BranchID узла дерева моторных автоматизмов AutomatizmNode<br>
+
+
+Информационные функции, вызываемые как действия ментального автоматизма по их ID функции - разные методы получения инфы, систематизации, поиска и т.п.
+с целью найти верное действие для моторного автоматизма, а если нет,
+то создания нового ментального автоматизма для продолжения итеации поиска.<br>
+
+У инфо-функций не должно быть вхлжного аргумента, иначе невозможно будет их вызывать из runMentalFunctionID(id int)
+Поэтому в инфо-функции могут вызываться вспомогательные функции с аргументами, полученными в инфофункци
+которые вызываются только если есть нужная инфа, например, сохраненная в mentalInfoStruct<br>
+
+Результат работы инфо-функции записывается в mentalInfoStruct
+и определяется общая переменная currentInfoStructId == ID инфо-функции<br>
+
+<br>
+При добавлении звена в цепочку размышления создается новая goNext с goNext.NextID следующего ID мент.автоматизма.
+В каждом звене цепочки - свой goNext - направляет цепочку с ветвелениями по активному MotorBranchID
+т.е. проход цепи идет по последовательности goNext.
+<br>  
+<li><a href="../funcs/createMentalAutomatizmID.htm">createMentalAutomatizmID</a> - создать новый автоматизм</li>
+<li><a href="../funcs/SaveMentalAutomatizm.htm">SaveMentalAutomatizm</a> - сохранить автоматизм</li>
+<li><a href="../funcs/loadMentalAutomatizm.htm">loadMentalAutomatizm</a> - загрузить автоматизм</li>
+<li><a href="../funcs/RunMentalAutomatizm.htm">RunMentalAutomatizm</a> - запуск автоматизма на выполнение</li>
+<li><a href="../funcs/createNewNextFromUnderstandingNodeID.htm">createNewNextFromUnderstandingNodeID</a> - начать новое звено цепочки размышления</li>
+<li><a href="../funcs/SavegoNext.htm">SavegoNext</a> - сохранить Образы goNext</li>
+<li><a href="../funcs/loadgoNext.htm">loadgoNext</a> - загрузить образы goNext</li>
+<li><a href="../funcs/runMentalFunctionID.htm">runMentalFunctionID</a> - Функция вызова пронумерованной инфо-функции</li>
+<li><a href="../funcs/infoFunc1.htm">infoFunc1</a> - Подобрать MentalActionsImages для продолжения цикла осмысления</li>
+<li><a href="../funcs/infoFunc2.htm">infoFunc2</a> - выбор того или иного решения делается в контексте имеющейся инфо-среды, а если этого не удается, то выбирается случайно одна из инфо-функций.</li>
+<li><a href="../funcs/infoFunc3.htm">infoFunc3</a> - айти подходящий мент.автоматизм по опыту ментальных Правил</li>
+<li><a href="../funcs/infoFunc4.htm">infoFunc4</a> - анализ инфо стркутуры и др. информации по currentInfoStructId и выдача решения</li>
+<li><a href="../funcs/infoFunc5.htm">infoFunc5</a> - создать и запустить ментальный автоматизм по действию mImgID</li>
+<li><a href="../funcs/infoFunc6.htm">infoFunc6</a> - ПОДВЕРГНУТЬ СОМНЕНИЮ автоматизм, если нет опасности (не нужно реагировать аффектно) и ситуация важна</li>
+<li><a href="../funcs/infoFunc7.htm">infoFunc7</a> - создать и запустить ментальный автоматизм запуска моторного автоматизма по действию ActionsImageID</li>
+<li><a href="../funcs/infoFunc8.htm">infoFunc8</a> - Ментальное определение ближайшей Цели в данной ситуации</li>
+<li><a href="../funcs/infoFunc9.htm">infoFunc9</a> - найти способ улучшения значимости объекта extremImportanceObject</li>
+<li><a href="../funcs/infoFunc10.htm">infoFunc10</a> - найти способ улучшения значимости субъекта внимания extremImportanceMentalObject</li>
+<li><a href="../funcs/infoFunc11.htm">infoFunc11</a> - Ментальное отзеркаливание реакции оператора</li>
+<li><a href="../funcs/infoFunc12.htm">infoFunc12</a> - Cинтез новой фразы из компонентов, имеющих плюсы в Правилах</li>
+<li><a href="../funcs/infoFunc122.htm">infoFunc122</a> - выбрать ID действия имеющего плюсы в Правилах</li>
+<li><a href="../funcs/infoFunc13.htm">infoFunc13</a> - Отзеркалить последний Стимул от оператора и совершить такое же действие. На Пульте: "Ответь сам на "+спопугайничать оператора+" чтобы показать, как лучше ответить."</li>
+<li><a href="../funcs/infoFunc14.htm">infoFunc14</a> - Ментально переактиваровать дерево понимания</li>
+<li><a href="../funcs/infoFunc15.htm">infoFunc15</a> - для условия дерева автоматизмов (NodeAID) в одиночных Правилах выбираем наилучшее</li>
+<li><a href="../funcs/infoFunc16.htm">infoFunc16</a> - По ЗНАЧИМОСТИ или Случайно выдать действие и затем infoFunc7()</li>
+<li><a href="../funcs/infoFindRundomMentalFunction.htm">infoFindRundomMentalFunction</a> - случайный выбор ментальной функции, из тех, что еще не использовались в данном цикле</li>
+<li><a href="../funcs/addMewBaseLinksMemory.htm">addMewBaseLinksMemory</a> - добавить элементв стек для обобщений: 7 Базовых fromNextID</li>
+<li><a href="../funcs/addInterruptMemory.htm">addInterruptMemory</a> - добавить в стек прерываний при новом стимуле с Пульта, прерывающим цикл осознания </li>
+<br><br><br><br>
