@@ -82,12 +82,12 @@
           <y:Geometry height="144.75305214533745" width="1008.753041793813" x="-1631.4519559435466" y="-1389.7449200434987"/>
           <y:Fill color="#E8EEF7" color2="#FFFF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="18" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="136.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="979.7265625" x="14.513239646906413" xml:space="preserve" y="4.221252635168639">Кадры эпизодической памяти пишутся по факту срабатывания автоматизма в период ожидания ответа оператора.
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="18" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="136.310546875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="979.7265625" x="14.51323964690664" xml:space="preserve" y="4.221252635168639">Кадры эпизодической памяти пишутся по факту срабатывания автоматизма в период ожидания ответа оператора.
 В памяти фиксируется предыдущая реакция Оператора и текущая от Beast в виде Правила в формате:
 Стимул - Ответ - Эффект. Таким образом происходит оценка актуальности автоматизмов в текущем
 контексте диалога. Кроме того, обращение к прошлому опыту позволяет получить новый автоматизм реагирования
 путем отзеркаливания реакции Оератора на такой же стимул. Полученный пробный вариант тут же проверяется
-и в случае удачного эффекта формируется новый автомазм.<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+и в случае удачного эффекта формируется новый моторный автоматизм.<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
