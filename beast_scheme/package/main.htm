@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Функция main</title>
+  <link rel="stylesheet" href="sys/common.css">
+</head>
+<body style="margin-left:20px;font-family:arial;font-size:14px;width:1000px;">
+<div style="position:relative;height:20px;margin-bottom:20px;">
+<a href="../index.htm"><img src="../img/home.png" style="position:absolute;top:0;left:0;" title="На главную."></a>
+
+<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Функция main</h1>
+</div>
+<b>func main</b><br>
+
+В функции main обеспечивается:
+<li>начальная инициализация</li>
+<li>интерфейс связи с Пультом</li>
+<li>перехват события завершения работы – для сохранения памяти в файлах.</li>
+
+<b>Вызываемые из Пульта функции методом POST:</b><br>
+<li><a href="SetNewTextBlock.htm">SetNewTextBlock</a> - текстовый блок для набивки дерева слов-фраз из http://go/pages/words.php</li>
+<li><a href="VerbalDetection.htm">VerbalDetection</a> - текст из окна ввода с пульта</li>
+<li><a href="SetActionFromPult.htm">SetActionFromPult</a> - к тексту добавлены пусковые стимулы (нажаты кнопки на пульте)</li>
+<li><a href="ActiveFromPhrase.htm">ActiveFromPhrase</a> - активировать дерево рефлексов фразой - только для условных рефлексов</li>
+<li><a href="GetCurGomeoParams.htm">GetCurGomeoParams</a> - отправить на пульт состояние гомеостаза Beast и его базовые контексты</li>
+<li><a href="WaitingPeriodForActions.htm">WaitingPeriodForActions</a> - информация про период ожидания ответа от Оператора</li>
+<li><a href="GetCurGomeoStatus.htm">GetCurGomeoStatus</a> - информация о текущем жизненном состоянии</li>
+<li><a href="GetCurContextActive.htm">GetCurContextActive</a> - информация об активных базовых контекстах</li>
+<li><a href="SetCurGomeoParams.htm">SetCurGomeoParams</a> - установка жизненных параметров с Пульта</li>
+
+
+<b>Вызываемые из Пульта функции методом GET:</b><br>
+
+<li><a href="FormingConditionsRefleaxFromList.htm">FormingConditionsRefleaxFromList</a> - формировать условные рефлексы на основе списка фраз-синонимов</li>
+<li><a href="FormingMirrorAutomatizmFromList.htm">FormingMirrorAutomatizmFromList</a> - Формирование зеркальных автоматизмов на основе списка ответов</li>
+<li><a href="FormingMirrorAutomatizmFromTempList.htm">FormingMirrorAutomatizmFromTempList</a> - Формирование зеркальных автоматизмов на основе общего шаблона</li>
+<li><a href="ExportFileUpdate.htm">ExportFileUpdate</a> - Выгружаем типы файлов, указанные через номера строк flieArr[] в каталоге "memory_save/update_dir.txt"</li>
+<li><a href="ImportFileUpdate.htm">ImportFileUpdate</a> - Загружаем поочередно все типы файлов от ботов, которые прописаны в каталоге</li>
+<li><a href="GetReflexesTreeForPult.htm">GetReflexesTreeForPult</a> - образ дерева рефлексов для вывода на Пульт</li>
+<li><a href="GetPhraseTreeForPult.htm">GetPhraseTreeForPult</a> - образ дерева фраз для вывода на Пульт</li>
+<li><a href="GetWordsListForPult.htm">GetWordsListForPult</a> - выдать на пульт список слов в алфавитном порядке</li>
+<li><a href="GetWordTreeForPult.htm">GetWordTreeForPult</a> - образ дерева фраз для вывода на Пульт</li>
+<li><a href="SetActionFromPult.htm">SetActionFromPult</a> - акция с кнопок пульта</li>
+<li><a href="ActiveFromAction.htm">ActiveFromAction</a> - активировать дерево атовматизмов действием</li>
+<li><a href="GetConditionReflexInfo.htm">GetConditionReflexInfo</a> - выдать таблицу условных рефлексов для http://go/pages/condition_reflexes.php</li>
+<li><a href="GetAutomatizmInfo.htm">GetAutomatizmInfo</a> - выдать на Пульт список автоматизмов</li>
+<li><a href="GetMentalAutomatizmInfo.htm">GetMentalAutomatizmInfo</a>- выдать на Пульт список ментальных автоматизмов</li>
+<li><a href="GetTreeAutomatizmTriggersInfo.htm">GetTreeAutomatizmTriggersInfo</a> - получение информации о пусковых стимулах Дерева автоматизмов</li>
+<li><a href="GetAutomatizmSequenceInfo.htm">GetAutomatizmSequenceInfo</a> - действия автоматизма в виде строки</li>
+<li><a href="GetMentalAutomotizmActionsString.htm">GetMentalAutomotizmActionsString</a> - действия ментального автоматизма в виде строки</li>
+<li><a href="GetStrnameFromBaseImageID.htm">GetStrnameFromBaseImageID</a> - названия базовых контекстов в их сочетании -из ID эмоции</li>
+<li><a href="GetStrnameFromobjectID.htm">GetStrnameFromobjectID</a> - показать пусковой стимул, к которому привязан автоматизм</li>
+<li><a href="UnblockAutomatizmID.htm">UnblockAutomatizmID</a> - разблокировать автоматизм</li>
+<li><a href="GetSelfPerceptionInfo.htm">GetSelfPerceptionInfo</a> - выдать самоощущение на Пульт</li>
+<li><a href="GetAutomatizmTreeForPult.htm">GetAutomatizmTreeForPult</a> - выдать Дерево автоматизмов на Пульт</li>
+<li><a href="GetMentalAutomatizmTreeForPult.htm">GetMentalAutomatizmTreeForPult</a> - выдать список автоматизмов на Пульт</li>
+<li><a href="GetCur10lastRules.htm">GetCur10lastRules</a> - выдать Правила на Пульт</li>
+<li><a href="GetCur10lastMentalRules.htm">GetCur10lastMentalRules</a> - выдать ментальные Правила на Пульт</li>
+<li><a href="GetCicklesToPult.htm">GetCicklesToPult</a> - показать циелы размышления на Пульте</li>
+<li><a href="RunMakeAutomatizmsFromReflexes.htm">RunMakeAutomatizmsFromReflexes</a> - для всех условных рефлексов создавать ветку дерева автоматизма и создать автоматизм для этой ветки.</li>
+<li><a href="GetImportanceToPult.htm">GetImportanceToPult</a> - показать объекты значимости на Пульте</li>
+
+
