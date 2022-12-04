@@ -242,7 +242,7 @@ TriggerStimuls<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMode
           <y:Geometry height="57.87123768287529" width="166.05686853384498" x="557.3348193535163" y="349.5139319445979"/>
           <y:Fill color="#E8EEF7" color2="#00FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.888671875" x="27.08409832942243" xml:space="preserve" y="12.234446966437645">1 уровень:
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.888671875" x="27.084098329422545" xml:space="preserve" y="12.234446966437645">1 уровень:
 есть изменения БС<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="-3.3306690738754696E-16" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
@@ -309,7 +309,7 @@ TriggerStimuls<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMode
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.terminator">
           <y:Geometry height="40.0" width="125.46859646552093" x="532.1074833935768" y="992.4862772145241"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:Fill color="#E8EEF7" color2="#FF99CC" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.04296875" x="1.712813857760466" xml:space="preserve" y="10.6494140625">ActiveCurBaseStyleID<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="97.72532579433823" y="-8.0">
@@ -633,7 +633,6 @@ TriggerStimuls<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMode
       </data>
     </edge>
     <edge id="e23" source="n0" target="n7">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-14.95601686165503" sy="22.791523429564506" tx="0.0" ty="0.0">
@@ -647,7 +646,6 @@ TriggerStimuls<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMode
       </data>
     </edge>
     <edge id="e24" source="n0" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="12.7199134297108" sy="22.788895792197565" tx="0.0" ty="0.0">
