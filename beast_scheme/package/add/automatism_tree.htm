@@ -2,17 +2,34 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Безусловные рефлексы</title>
+  <title>Дерево автотматизмов</title>
   <link rel="stylesheet" href="sys/common.css">
 </head>
 <body style="margin-left:20px;font-family:arial;font-size:14px;width:1000px;">
 <div style="position:relative;height:20px;margin-bottom:20px;">
 <a href="../../index.htm"><img src="../../img/home.png" style="position:absolute;top:0;left:0;" title="На главную."></a>
-<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Безусловные рефлексы</h1>
+<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Дерево автотматизмов</h1>
 </div>
-ххх
+Дерево автоматизмов по аналогии с Деревом рефлексов является сложным составным Пусковым стимулом (Образом восприятия) 
+с жесткой иерархией, задающей уровни активации. Для автоматизма их 6:
+<ol>
+  <li><b>BaseID</b> – Базовое состояние</li>
+  <li><b>EmotionID</b> – Эмоция</li>
+  <li><b>ActivitiID</b> – комбинация Базовых действий</li>
+  <li><b>ToneMoodID</b> – комбинация Тона сообщения и Настроения Оператора в виде строки: toneID + moodID</li>
+  <li><b>SymbolID</b> – код первого символа фразы</li>
+  <li><b>VervalID</b> – код узла дерева фраз</li>
+</ol>
+Эмоция EmotionID по умолчанию зависит от комбинации текущих Базовых контекстов BaseStyleID, но может произвольно 
+меняться в зависимости от состояния Психики Beast. Это позволяет выйти за рамки рефлекторного реагирования как реакции 
+на изменения Базовых контекстов.
 <table>
   <tr>
-    <td><img src="../../img/Reflex_tree.png" width="948" height="1432" border="0" alt="Дерево безусловных рефлексов"></td>
+    <td><img src="../../img/Automatism_tree.png" width="1051" height="956" border="0" alt=""></td>
   </tr>
 </table>
+Древовидная структура определяет правила  восприятия Пускового стимула по составляющим: возможны активации по 
+уровням 1 – 2 – 3 – 4, но запрещены пропуски уровней в Образе: 1 – 2 – 4. Для ускорения поиска выделен 
+дополнительный уровень SymbolID, что позволяет быстро находить фразу в Дереве фраз.</p>
+Если активировался не полный Образ, или вообще не нашлось соответствия Пусковых стимулов в Дереве автоматизмов, 
+то недостающие узлы доращиваются и выдается узел конечной ветки detectedActiveLastNodID. 
