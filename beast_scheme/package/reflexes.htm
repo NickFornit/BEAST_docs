@@ -27,7 +27,7 @@
 3. Условный раздражитель должен быть не вызывающим значительной самостоятельной реакции.<br>
 4. Рефлекс возникает только после нескольких повторений сочетаний 2 (news_detectior.go: if tempImg.Count > 2 - в func updateNewsConditions(rank int)),
 это избавляет от случайных связей.<br>
-И возникаеющий образ рефлекса гасится, если долго не подтверждаются сочетания, за ночь - точно.<br>
+И возникающий образ рефлекса гасится, если долго не подтверждаются сочетания, за ночь - точно.<br>
 Условия затухания условного рефлекса:<br>
 1. Долгое отсутствие пускового стимула (узла ветки, с которого он запускается) – это легко реализуется добавлением в структуру усл. рефлекса lastActivation int – в числе пульсов и времени протухания истекших рефлексов;<br>
 2. Действие конкурентных раздражителей – т.е. подавление конкурентными рефлексами и автоматизмами – т.е. если есть более значимый рефлекс или любой автоматизм на тот же пусковой стимул, то он блокирует усл. рефлекс. В структуре усл. рефлекса есть его ранг (число цепочки родителей), чем он выше, тем рефлекс приоритетнее среди других. Автоматизм приоритетнее любого рефлекса.<br>
@@ -54,11 +54,11 @@
 <br>  
 <li><a href="../funcs/ReflexCountPuls.htm">ReflexCountPuls</a> - коррекция текущего состояния гомеостаза и базового контекста с каждым пульсом</li>
 <li><a href="../funcs/setOldActiveCurTriggerStimulsVal.htm">setOldActiveCurTriggerStimulsVal</a> - Активация дерва рефлексов при любом изменении условий с проверкой по каждому пульсу</li>
-<li><a href="../funcs/ActiveFromAction.htm">ActiveFromAction</a> - активировать дерево атовматизмов действием</li>
+<li><a href="../funcs/ActiveFromAction.htm">ActiveFromAction</a> - активировать дерево автоматизмов действием</li>
 <li><a href="../funcs/ActiveFromPhrase.htm">ActiveFromPhrase</a> - активировать дерево фразой</li>
 <li><a href="../funcs/getConditionsArr.htm">getConditionsArr</a> - создание иерархии образов контекстов условий и пусковых стимулов в виде ID образов</li>
 <li><a href="../funcs/activeReflexTree.htm">activeReflexTree</a> - распознавание рефлексов в дереве рефлексов</li>
-<li><a href="../funcs/sortingForActions.htm">sortingForActions</a> - ортировка действий рефлексов по убыванию актуальной значимости их целей</li>
+<li><a href="../funcs/sortingForActions.htm">sortingForActions</a> - сортировка действий рефлексов по убыванию актуальной значимости их целей</li>
 <li><a href="../funcs/checkIgnorOnly.htm">checkIgnorOnly</a> - Индикатор реакции игнорирования</li>
 <li><a href="../funcs/GetActualReflexAction.htm">GetActualReflexAction</a> - сразу после активации дерева передать инфу для Психики</li>
 <li><a href="../funcs/createNewReflexNode.htm">createNewReflexNode</a> - Создать новый узел дерева рефлексов</li>
@@ -69,10 +69,10 @@
 <li><a href="../funcs/findGeneticReflexFromCondinion.htm">findGeneticReflexFromCondinion</a> - найти рефлекс по условиям</li>
 <li><a href="../funcs/findAndExecuteSimpeReflex.htm">findAndExecuteSimpeReflex</a> - найти и выполнить простейший безусловный рефлекс</li>
 <li><a href="../funcs/TerminateGeneticAllReflaxActions.htm">TerminateGeneticAllReflaxActions</a> - выдать на Пульт подряд акции массива ID БЕЗУСЛОВНЫХ рефлексов</li>
-<li><a href="../funcs/ExpensesGomeostatParametersAfterAction.htm">ExpensesGomeostatParametersAfterAction</a> - изменение жизанных параметров при действии</li>
-<li><a href="../funcs/IsBlockingMotorsAction.htm">IsBlockingMotorsAction</a> - Блокировка рефлексорных действий из Психики или во сне</li>
+<li><a href="../funcs/ExpensesGomeostatParametersAfterAction.htm">ExpensesGomeostatParametersAfterAction</a> - изменение жизненных параметров при действии</li>
+<li><a href="../funcs/IsBlockingMotorsAction.htm">IsBlockingMotorsAction</a> - Блокировка рефлекторных действий из Психики или во сне</li>
 <li><a href="../funcs/toRunRefleses.htm">toRunRefleses</a> - запустить готовые к выполнению рефлексы</li>
-<li><a href="../funcs/CreateNewTriggerStimulsImage.htm">CreateNewTriggerStimulsImage</a> - оздать новое сочетание пусковых стимулов если такого еще нет</li>
+<li><a href="../funcs/CreateNewTriggerStimulsImage.htm">CreateNewTriggerStimulsImage</a> - создать новое сочетание пусковых стимулов если такого еще нет</li>
 <li><a href="../funcs/SaveTriggerStimulsArr.htm">SaveTriggerStimulsArr</a> - сохранить образы сочетаний пусковых стимулов</li>
 <li><a href="../funcs/loadTriggerStimulsArr.htm">loadTriggerStimulsArr</a> - загрузить образы сочетаний пусковых стимулов</li>
 <li><a href="../funcs/createNewlastTriggerStimulsTempID.htm">createNewlastTriggerStimulsTempID</a> - создать образ сочетаний пусковых стимулов</li>
