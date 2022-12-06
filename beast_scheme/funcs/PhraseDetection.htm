@@ -12,7 +12,7 @@
 <h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;white-space: nowrap;'>Функция PhraseDetection</h1>
 </div>
 
-<b>Проход одной фразыраспознавание ID слов фразы</b><br>
+<b>Проход одной фразы, распознавание ID слов фразы</b><br>
 <br>
 Переносим в дерево слов достаточно повторяющиеся из tempArr для trees_former.go<br>
 Распознать и вставить новое слово-фразу в дерево:
@@ -22,8 +22,6 @@
 <br>
 <b>Функция вызывается из:</b>
 <li>AddwordIDToPhraseTree - сделать фразу PhraseID из wordID []</li>
-<li>PhraseSeparator - проход одной фразы (т.е. по разделителям в предложении, а не пр \r\n)</li>
+<li>PhraseSeparator - проход одной фразы (т.е. по разделителям в предложении, а не по \r\n)</li>
 <li>GetExistsPraseID - если есть такая фраза в Дереве, то выдать ее ID</li>
-<li><a href="SetNewPhraseTreeNode.htm">SetNewPhraseTreeNode</a> - вставка новой фразы со вставкой новых слов фразы, так что фраза будет распознанна всегда.</li>
-
-
+<li><a href="SetNewPhraseTreeNode.htm">SetNewPhraseTreeNode</a> - вставка новой фразы со вставкой новых слов фразы, так что фраза будет распознана всегда.</li>
