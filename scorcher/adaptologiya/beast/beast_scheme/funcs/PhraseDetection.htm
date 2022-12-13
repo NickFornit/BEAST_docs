@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Функция PhraseDetection</title>
+  <link rel="stylesheet" href="sys/common.css">
+</head>
+<body style="margin-left:20px;font-family:arial;font-size:14px;width:1000px;">
+<div style="position:relative;height:20px;margin-bottom:20px;">
+<a href="../index.htm"><img src="../img/home.png" style="position:absolute;top:0;left:0;" title="На главную."></a>
+<a href="../package/word_sensor.htm"><img src="../img/package.png" style="position:absolute;top:0;left:50px;" title="Пакет word_sensor."></a>
+<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;white-space: nowrap;'>Функция PhraseDetection</h1>
+</div>
+
+<b>Проход одной фразы, распознавание ID слов фразы</b><br>
+<br>
+Переносим в дерево слов достаточно повторяющиеся из tempArr для trees_former.go<br>
+Распознать и вставить новое слово-фразу в дерево:
+найти подходящий узел и если еще нет - вставить новый.<br>
+<br>
+
+<br>
+<b>Функция вызывается из:</b>
+<li>AddwordIDToPhraseTree - сделать фразу PhraseID из wordID []</li>
+<li>PhraseSeparator - проход одной фразы (т.е. по разделителям в предложении, а не по \r\n)</li>
+<li>GetExistsPraseID - если есть такая фраза в Дереве, то выдать ее ID</li>
+<li><a href="SetNewPhraseTreeNode.htm">SetNewPhraseTreeNode</a> - вставка новой фразы со вставкой новых слов фразы, так что фраза будет распознана всегда.</li>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Жизненные параметры Beast</title>
+  <link rel="stylesheet" href="sys/common.css">
+</head>
+<body style="margin-left:20px;font-family:arial;font-size:14px;width:1000px;">
+<div style="position:relative;height:20px;margin-bottom:20px;">
+<a href="../index.htm"><img src="../img/home.png" style="position:absolute;top:0;left:0;" title="На главную."></a>
+<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Жизненные параметры Beast</h1>
+</div>
+
+Жизненные параметры гомеостаза и Базовые стили поведения (базовые контексты рефлексов)<br>
+<br>
+  
+<br>  
+<li><a href="../funcs/GomeostazPuls.htm">GomeostazPuls</a> - коррекция текущего состояния гомеостаза и базового контекста с каждым пульсом</li>
+<li><a href="../funcs/GetCurGomeoParams.htm">GetCurGomeoParams</a> - выдать текущие значения жизненных параметров</li>
+<li><a href="../funcs/SetCurGomeoParams.htm">SetCurGomeoParams</a> - установка параметров гомеостаза с Пульта</li>
+<li><a href="../funcs/gomeostazUpdate.htm">gomeostazUpdate</a> -  скорректировать текущее состояние гомеостаза</li>
+<li><a href="../funcs/SaveCurrentGomeoParams.htm">SaveCurrentGomeoParams</a> - Сохранить значения параметров гомеостаза в файле</li>
+<li><a href="../funcs/changingParVal.htm">changingParVal</a> - шаг изменения параметра со скоростью GomeostazParamsSpeed</li>
+<li><a href="../funcs/IsBeastDeath.htm">IsBeastDeath</a> - смерть Beast при повреждении > 99%</li>
+<li><a href="../funcs/FindTargetGomeostazID.htm">FindTargetGomeostazID</a> - выявить ID параметров гомеостаза как цели для улучшения в данных условиях</li>
+<li><a href="../funcs/getNormaDiapason.htm">getNormaDiapason</a> - в каком из 5 диапазоне нормы находится Базовый параметр</li>
+<li><a href="../funcs/initContextDetector.htm">initContextDetector</a> - Прошивка несовместимых сочетаний контекстов</li>
+<li><a href="../funcs/baseContextUpdate.htm">baseContextUpdate</a> - текущее состояние базового контекста</li>
+<li><a href="../funcs/activeOrPassiveContext.htm">activeOrPassiveContext</a> - активируем или пассивируем контексты по заданному правилу в http://go/pages/gomeostaz.php</li>
+<li><a href="../funcs/GetActiveContextInfo.htm">GetActiveContextInfo</a> - контекст распознавания текущей фразы с Пульта для Vernike_detector.go</li>
+<li><a href="../funcs/changingConditionsDetector.htm">changingConditionsDetector</a> - детектор изменения базового состояния и контекстов - проверка по каждому пульсу</li>
+<li><a href="../funcs/initBadDetector.htm">initBadDetector</a> - начальное состояние детектора Плохо</li>
+<li><a href="../funcs/badDetecting.htm">badDetecting</a> - Определение текущего состояния по каждому базовому параметру, затем - общее интегральное состояние</li>
+<li><a href="../funcs/detector.htm">detector</a> - Определение насколько Плохо как % умноженный	на 10</li>
+<li><a href="../funcs/commonBadDetecting.htm">commonBadDetecting</a> - пороговый (compareLevel) сумматор значений состояний Плохо</li>
+<li><a href="../funcs/prepBetterOrWorseNow.htm">prepBetterOrWorseNow</a> - для Психики: стало хуже или лучше теперь</li>
+<li><a href="../funcs/commonPerceptionNow.htm">commonPerceptionNow</a> - Экспоненциальная оценка изменения общего состояния</li>
+<li><a href="../funcs/BetterOrWorseNow.htm">BetterOrWorseNow</a> - Стало лучше или хуже теперь - эффект результата действия</li>

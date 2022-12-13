@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Рефлексы мозжечка</title>
+  <link rel="stylesheet" href="sys/common.css">
+</head>
+<body style="margin-left:20px;font-family:arial;font-size:14px;width:1000px;">
+<div style="position:relative;height:20px;margin-bottom:20px;">
+<a href="../index.htm"><img src="../img/home.png" style="position:absolute;top:0;left:0;" title="На главную."></a>
+<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;'>Рефлексы мозжечка</h1>
+</div>
+
+Самый первый уровень осознания - подгонка действий под заданную цель.<br>
+
+Оценка результата автоматизма и корректировка мозжечковыми рефлексами ПРИ ОСОЗНАНИИ ЦЕЛИ И ПЕРЕБОРА-НЕДОБОРА,
+А ТАК ЖЕ НЕОБХОДИМОСТИ ДОПОЛНИТЕЛЬНЫХ (корректирующих) ДЕЙСТВИЙ.<br>
+
+Если нет эффекта от фразы - усилить ее и м. б. дополнить другими действиями и фразами, фиксируя результат в рефлексе мозжечка
+- примитивный уровень осмысления после активации дерева понимания.<br>
+
+Для каждого действия brain\reflexes\terminete_action.go задается "сила" действия в градации от 1 до 10, которая передается на Пульт словами:
+максимально сильно, очень сильно, ... едва-едва.<br>
+<br>
+Это - только на уровне осмысления в Дереве Понимания:
+   cerebellumCoordination(LastAutomatizmWeiting.ID)
+Должно быть осознание цели и перебора - недобора!
+<br>
+В каждом автоматизме есть параметр силы: Automatizm.Energy вот он и корректируется,
+т.е. функция рефлекса мозжечка состоит в нахождении излишней или недостаточной силы по результатам действия
+и поправки силы действия автоматизма getCerebellumReflexAddEnergy(automatizmID int)
+Но самое полезное - выполнение дополнительных действий сразу после исходного автоматизма
+по рефлексу, привязанному к исходному автоматизму: runCerebellumReflex(automatizmID int)<br>
+
+В частности, одна из корректирующих функций - энергосберегательная и рефлекс должен это учитывать,
+т.е. рефлекс создается при повышенном расходе и уменьшает силу данной реакции.<br>
+
+К этому постепенно, с обучением, добавляются другие координирующие функции, которые по разным признакам
+координируют выполнение реакции: cerebellumCoordination()<br>
+<br>  
+<li><a href="../funcs/cerebellumCoordination.htm">cerebellumCoordination</a> - Создать или дополнить автоматизм рефлексом мозжечка</li>
+<li><a href="../funcs/createNewCerebellumReflex.htm">createNewCerebellumReflex</a> - создать новый автоматизм для мозжечкового рефлекса</li>
+<li><a href="../funcs/SaveCerebellumReflex.htm">SaveCerebellumReflex</a> - охранить рефлексы мозжечка</li>
+<li><a href="../funcs/loadCerebellumReflex.htm">loadCerebellumReflex</a> - загрузить рефлексы мозжечка</li>
+<li><a href="../funcs/getCerebellumReflexAddEnergy.htm">getCerebellumReflexAddEnergy</a> - скорректированную силу действия автоматизма</li>
+<li><a href="../funcs/runCerebellumAdditionalAutomatizm.htm">runCerebellumAdditionalAutomatizm</a> - выполнить дополнительные мозжечковые автоматизмы сразу после выполняющегося автоматизма</li>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Функция findReflexesNodes</title>
+  <link rel="stylesheet" href="sys/common.css">
+</head>
+<body style="margin-left:20px;font-family:arial;font-size:14px;width:1000px;">
+<div style="position:relative;height:20px;margin-bottom:20px;">
+<a href="../index.htm"><img src="../img/home.png" style="position:absolute;top:0;left:0;" title="На главную."></a>
+<a href="../package/reflexes.htm"><img src="../img/package.png" style="position:absolute;top:0;left:50px;" title="Пакет reflexes."></a>
+<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;white-space: nowrap;'>Функция findReflexesNodes</h1>
+</div>
+
+<b>Распознать активную ветку дерева рефлексов.</b><br>
+<br>
+На каждом уровне допускаются ветвления его дочек - для нахождения не точного соответствия, если не было найдено точное.<br>
+Например, если рефлексы имеет только один Базовый контекст, а текущее состояние Beast - сочетание нескольких,
+то в результате должны сработать все рефлексы, для каждой цифры в сочетании образа текущих условий.
+Но если в рефлексе заданы несколько условий и такой образ точно совпадает с текущим образом условий,
+то именно этот рефлекс и сработает.<br>
+<br>
+
+<br>
+<b>Функция вызывается из:</b>
+<li><a href="activeReflexTree.htm">activeReflexTree</a> - активация дерева рефлексов</li>

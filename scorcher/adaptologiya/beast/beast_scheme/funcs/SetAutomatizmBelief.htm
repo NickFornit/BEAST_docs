@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Функция SetAutomatizmBelief</title>
+  <link rel="stylesheet" href="sys/common.css">
+</head>
+<body style="margin-left:20px;font-family:arial;font-size:14px;width:1000px;">
+<div style="position:relative;height:20px;margin-bottom:20px;">
+<a href="../index.htm"><img src="../img/home.png" style="position:absolute;top:0;left:0;" title="На главную."></a>
+<a href="../package/automatizm.htm"><img src="../img/package.png" style="position:absolute;top:0;left:50px;" title="Пакет automatizm."></a>
+<h1 style='position:absolute;top:-10px;left:50%;transform: translate(-50%, 0);font-size:18px;white-space: nowrap;'>Функция SetAutomatizmBelief</h1>
+</div>
+
+<b>Задать тип автоматизма Belief</b><br>
+<br>
+Только один из автоматизмов, прикрепленных к ветке или образу, может иметь Belief=2 - проверенное собственное знание.<br>
+<br>
+
+<br>
+<b>Функция вызывается из:</b>
+<li><a href="loadAutomatizm.htm">loadAutomatizm</a></li>
+<li><a href="RumAutomatizm.htm">RumAutomatizm</a></li>
+<li><a href="createNodeUnattachedAutomatizm.htm">createNodeUnattachedAutomatizm</a> - формирование не привязанных к узлу автоматизмов при активации дерева</li>
+<li>linkCoomonAtmtzmToBrench - привязать общий автоматизм к активной ветке detectedActiveLastNodID</li>
+<li><a href="FormingMirrorAutomatizmFromList.htm">FormingMirrorAutomatizmFromList</a> - Формирование зеркальных автоматизмов на основе списка ответов</li>
+<li><a href="FormingMirrorAutomatizmFromTempList.htm">FormingMirrorAutomatizmFromTempList</a> - Создаются автоматизмы на основе общего шаблона ответов lib/mirror_basic_phrases_common.txt, привязанные к пусковой фразе, а не к узлу дерева</li>
+<li><a href="createNewMirrorAutomatizm.htm">createNewMirrorAutomatizm</a> - Создание зеркального автоматизма, повторяющего действия оператора в данных условиях</li>
+<li><a href="provokatorMirrorAutomatizm.htm">provokatorMirrorAutomatizm</a> - Создание автоматизма, передразнивающего действия оператора</li>
+<li>automatizmCorrection - корректируется успешность автоматизма</li>
+<li><a href="RunMakeAutomatizmsFromReflexes.htm">RunMakeAutomatizmsFromReflexes</a> - автоматизмы - для всех условных рефлексов: создавать ветку дерева автоматизма если такой еще нет</li>
+<li><a href="RunMakeAutomatizmsFromGeneticReflexes.htm">RunMakeAutomatizmsFromGeneticReflexes</a> - для всех безусловных рефлексов,
+создавать ветку дерева автоматизма если такой еще нет,
+создавать автоматизм</li>
