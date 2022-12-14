@@ -791,24 +791,16 @@ style='color:windowtext;text-decoration:none'>https://github.com/NickFornit/BEAS
 <p class=MsoNormal style='margin-bottom:0cm;line-height:normal;text-autospace:
 none'>&nbsp;</p>
 
-<p class=MsoNormal>Описание Пульта и схемы опубликованы:</p>
 
-<p class=MsoNormal><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/index.htm"><span
-lang=EN-US>https</span>://<span lang=EN-US>scorcher</span>.<span lang=EN-US>ru</span>/<span
-lang=EN-US>adaptologiya</span>/<span lang=EN-US>beast</span>/<span lang=EN-US>beast</span>_<span
-lang=EN-US>scheme</span>/<span lang=EN-US>index</span>.<span lang=EN-US>htm</span></a><span
-lang=EN-US> </span></p>
+<p class=MsoNormal>Можно скачать коды Пульта и Beast с репозиториев и самим все скомпилировать. Линуксоидам придется изменить настройки проекта golang, но т.к. они все крутые, то сами организуют сайт и сами положат исполняемый на линуксе файл в корень сайта.</p>
 
-<p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>Сам Пульт в виде локального сайта с исполняемым файлом <span
-lang=EN-US>Beast</span> можно скачать с Яндекс-диска:</p>
-
-<p class=MsoNormal><a href="https://disk.yandex.ru/d/7az4UW4XG99kDQ"><span
+<p class=MsoNormal>Чтобы посмотреть готовую реализацию, нужно запустить Пульт в виде локального сайта с исполняемым файлом, <span
+lang=EN-US>Beast</span> скачав архив с Яндекс-диска (вариант для windows):<br>
+<a href="https://disk.yandex.ru/d/7az4UW4XG99kDQ"><span
 style='color:windowtext;text-decoration:none'>https://disk.yandex.ru/d/7az4UW4XG99kDQ</span></a></p>
 
-<p class=MsoNormal>Достаточно просто скачать в любое место, <b>не
+<p class=MsoNormal>Достаточно просто разменстить папку из архива на любом диске компьютера, <b>не
 переименовывая папку</b> и прочесть как запустить сайт <span lang=EN-US>http</span>:<span
 lang=EN-US>go</span><span lang=EN-US> </span>на своем компьютере.</p>
 
@@ -821,6 +813,14 @@ lang=EN-US> </span>развита методами избыточной искусственной накачки, что не
 является оптимальным. Но в Пульте есть возможность загрузить и другие этапы
 памяти или же вообще все начать с самого начала.</p>
 
+<p class=MsoNormal>&nbsp;:</p>
+
+<p class=MsoNormal>Описание Пульта и схемы опубликованы:<br>
+<a
+href="/adaptologiya/beast/beast_scheme/index.htm">https://scorcher.ru/adaptologiya/beast/beast_scheme/index.htm</a>.</p>
+
+
+
 <h2><a name="_Toc121642943">О предшествующей реализации</a></h2>
 
 <p class=MsoNormal>Прошлый отчет о реализации прототипа системы адаптивности
@@ -830,7 +830,7 @@ lang=EN-US> </span>развита методами избыточной искусственной накачки, что не
 style='color:black;background:white'>&nbsp;</span><a
 href="https://psycholinguistic.ru/arhiv/2021%E2%84%964(16).pdf">Мозг как
 схемотехническое устройство</a><span style='color:black;background:white'>&nbsp;(39-я
-страница,&nbsp;</span><a href="https://scorcher.ru/conscience/vak.pdf"><span
+страница,&nbsp;</span><a href="/conscience/vak.pdf"><span
 style='background:white'>PDF</span></a><span style='color:black;background:
 white'>).</span></p>
 
@@ -921,7 +921,8 @@ style='background:white'>fornit.ru/50204</span></a>.</p>
 развить систему значительно дальше базовых автоматизмов.</p>
 
 <p class=MsoNormal>Создан более удобный и информативный Пульт управления и
-более продуманная система ректоров данных для различных стадий развития.</p>
+более продуманная система ректоров данных для различных стадий развития.<br>
+<a href="/adaptologiya/beast/beast_scheme/pult.htm" target="_blank"><img src="report_img/pult.jpg" border=1 width=750 height='auto'></a></p>
 
 <p class=MsoNormal>По сравнению с прошлой версией были внесены следующие
 изменения:</p>
@@ -1328,11 +1329,12 @@ lang=EN-US> </span>и кода Пульта.  </p>
 
 
 <h3><a name="_Toc121642956">Общая схема:</a></h3>
+<p class=MsoNormal>Общая принципиальная схема Beast:<br>
+<a
+href="common_scheme.htm">Графическая блок-схема Beast</a></p>
 
 
-<p class=MsoNormal><a href="report_img/graf_beast.png">Графическая блок-схема Beast</a></p>
-
-<p class=MsoNormal>&nbsp;</p>
+<p class=MsoNormal>Конечно, в схеме невозможно было уложить 260 основных функций и множество вспомогательных, так что это – именно принципиальная блок-схема, позволяющая все охватить зримо и ясно. Особенно сложным для такого вида представления является блок “3 уровень осмысления” из-за принципиальной его неалгоритмируемости. Последовательности вызовов ментальных функций определяются наработанными Правилами, что описано в разделе “Ментальные автоматизмы и циклы ментальной рекурсии”. Нечто подобное утверждал Р.Пенроуз (fornit.ru/1717). И в самом деле, попытка изобразить это в виде графических блоков невозможна, хотя возможно изобразить общие организующие функции. В модели Beast ментальные циклы работают в зависимости от изменяющейся информационной картины и Правила, по которым организуется такая работа, невозможно прописать заранее, а можно только наработать на опыте.</p>
 
 <h3><a name="_Toc121642957">Базовая структура</a></h3>
 
@@ -2588,42 +2590,42 @@ getMentalPurpose().</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/funcs/createNewlastImportanceID.htm"><span
+href="/adaptologiya/beast/beast_scheme/funcs/createNewlastImportanceID.htm"><span
 style='color:blue'>createNewlastImportanceID</span></a>&nbsp;- создать новый
 образ значимости объекта восприятия если такого еще нет</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/funcs/Saveimportance.htm"><span
+href="/adaptologiya/beast/beast_scheme/funcs/Saveimportance.htm"><span
 lang=EN-US style='color:blue'>Saveimportance</span></a><span lang=EN-US>&nbsp;</span>-
 сохранить Образы <span lang=EN-US>Importance</span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/funcs/loadImportance.htm"><span
+href="/adaptologiya/beast/beast_scheme/funcs/loadImportance.htm"><span
 lang=EN-US style='color:blue'>loadImportance</span></a><span lang=EN-US>&nbsp;</span>-
 загрузить образы <span lang=EN-US>Importance</span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/funcs/getObjectsImportanceValue.htm"><span
+href="/adaptologiya/beast/beast_scheme/funcs/getObjectsImportanceValue.htm"><span
 style='color:blue'>getObjectsImportanceValue</span></a>&nbsp;- значимость ID
 объекта внимания в текущих условиях</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/funcs/setImportance.htm"><span
+href="/adaptologiya/beast/beast_scheme/funcs/setImportance.htm"><span
 style='color:blue'>setImportance</span></a>&nbsp;- Фиксация значимости объекта
 Объективного восприятия всех декларированных видов в данных условиях</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/funcs/getGreatestImportance.htm"><span
+href="/adaptologiya/beast/beast_scheme/funcs/getGreatestImportance.htm"><span
 style='color:blue'>getGreatestImportance</span></a>&nbsp;- найти наиболее
 значащие объекты в данных условиях</p>
 
 <p class=MsoNormal style='margin-left:18.0pt'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/funcs/getTopAttentionObject.htm"><span
+href="/adaptologiya/beast/beast_scheme/funcs/getTopAttentionObject.htm"><span
 style='color:blue'>getTopAttentionObject</span></a>&nbsp;- выбрать один, самый
 актуальный объект</p>
 
@@ -2903,95 +2905,141 @@ style='color:#222222;background:white'> Вовлечение 4-го уровня возможно только
 и циклы ментальной рекурсии</a></h2>
 
 
-<p class=MsoNormal>Чтобы ментальные автоматизмы могли срабатывать не по уже
-заложенному наследственно алгоритму, а самостоятельно основываться на текущей
-информации, была создана следующая схема. Каждый автоматизм направляется
-текущей информаций и в результате своей активности возникает новая информация,
-которая теперь влияет на то, какое действие будет выбрано в следующем
-автоматизме. Этот процесс должен продолжаться до получения важной для решения
-текущей задачи (определяемой целью). Или до тех пор, пока не будет прерван другой
-важной целью при Стимуле с Пульта.</p>
+<p class=MsoNormal style='line-height:12.85pt;background:white'><span
+style='color:black'>Чтобы ментальные автоматизмы могли срабатывать не по уже
+заложенному наследственно&nbsp;алгоритму, а самостоятельно основываться на
+текущей информации, была создана следующая схема. Каждый автоматизм
+направляется текущей информаций и в результате своей активности возникает новая
+информация, которая теперь влияет на то, какое действие будет выбрано в
+следующем автоматизме. Этот процесс должен продолжаться до получения важной для
+решения текущей задачи (определяемой целью). Или до тех пор, пока не будет
+прерван другой важной целью при Стимуле с Пульта. Затем на первый план выходит следующий по важности образ.</span></p>
 
-<p class=MsoNormal>Все это организовано как вызовы главной функции осмоления
-самой себя с получением новой информационной картины. Движок выбора подходящего
+<p class=MsoNormal style='line-height:12.85pt;background:white'><span
+style='color:black'>Все это организовано как вызовы главной функции осмысления
+самой себя (точнее вызовы в конце каждого текущего звена цикла) с получением новой информационной картины.<br>Движок выбора подходящего
 для данной информации ментального автоматизма срабатывает и проверяет, нашлось
-ли предположительное решение. Этот движок использует уже имеющиеся цепочки
-ментальных Правил или предполагает новые действия. Он как бы видит текущую
-образованную информационную картину и как бы принимает решение на основе
-имеющегося опыта размышлений (Правила) или придумывает новые действия.</p>
+ли подходящее для намеченной цели решение. Этот движок использует уже имеющиеся цепочки моторных и 
+ментальных Правил или конструирует новые действия. Он учитывает (как бы видит)
+текущую образованную информационную картину и принимает решение на основе
+имеющегося опыта размышлений (Правила) или придумывает новые действия.</span></p>
 
-<p class=MsoNormal>Циклы ментального осмысления проходят очень быстро (ну, как
+<p class=MsoNormal style='line-height:12.85pt;background:white'><span
+style='color:black'>Циклы ментального осмысления проходят очень быстро (ну, как
 и положено мысли :) никак не лимитируемые детекторами окончания какого-то
-действия, как это есть в случае цепочек ментальных действий. Так что и сами
-последовательные моторные цепочки (моторные Правила) могут использоваться для
-нахождения ментальных действий потому как они так же могут просматриваться
-ничем не лимитировано.</p>
+действия. Так что в поиске действий могут использоваться последовательные моторных цепочек (моторные Правила) потому как они так же могут просматриваться
+ничем не лимитировано. Схожим образом в мозге во сне могут блокироваться ожидания пусковых стимулов для продвижения цепочки моторных действий, или для получения прогноза используется произвольная блокировка (fornit.ru/m4).</span></p>
 
-<p class=MsoNormal>Точно так же организуются циклы прохода от одной
-инфо-картины к другой в случае сновидений (fornit.ru/5212), но, ограничиваясь
-активностью более низкого уровня функции осмысления (из-за заторможенности, но
-бывает и “осознанные сновидения” fornit.ru/984), давая понимание того, что
-может произойти с выработкой Правил, но без корректирующего влияния объективной
-составляющей информационной картины при внешнем восприятии. Сновидения
-позволяют не терять бесполезно предыдущий опыт, который не было времени
-осмыслить. Это пока еще не реализовано.</p>
+<p class=MsoNormal style='line-height:12.85pt;background:white'><span
+style='color:black'>Точно так же организуются циклы прохода от одной
+инфо-картины к другой в случае сновидений (<a href="http://fornit.ru/5212"
+target="_blank"><span style='color:#0563C1'>fornit.ru/5212</span></a>), но,
+ограничиваясь активностью более низкого уровня функции осмысления (из-за
+заторможенности, но бывает и “осознанные сновидения”&nbsp;<a
+href="http://fornit.ru/984" target="_blank"><span style='color:#0563C1'>fornit.ru/984</span></a>),
+давая понимание того, что может произойти с выработкой Правил, но без
+корректирующего влияния объективной составляющей информационной картины при
+внешнем восприятии. Сновидения позволяют не терять бесполезно предыдущий опыт,
+который не было времени осмыслить. Это пока еще не реализовано.</span></p>
 
-<p class=MsoNormal>В этой схеме участвуют пакеты:</p>
+<p class=MsoNormal style='line-height:12.85pt;background:white'><span
+style='color:black'>Моторные Правила возникают раньше ментальных потому, как
+вторые нарабатываются вследствие работы ментальных циклов в условиях отсутствия
+моторных автоматизмов. Поэтому сначала стиль мышления использует моторные Правила
+и эпизодическую память, каждое звено которой хранит информацию о деталях
+информационной картины уже пережитого, которую возможно восстановить во всех
+деталях. </span></p>
+
+<p class=MsoNormal style='line-height:12.85pt;background:white'><span
+style='color:black'>По мере накопления ментальных Правил, мышление все большее использует
+их, отрываясь от деталей объективного восприятия. Мысли становятся менее
+красочными, яркими, более абстрактными. Этот эффект был описан в статье “Тишина
+мыслей” (fornit.ru/17954):</span></p>
+
+<p class=MsoNormal style='line-height:12.85pt;background:white'><span
+style='color:black;background:white'>“В книге врача-физиолога&nbsp;</span></span><span
+style='color:black'><a
+href="https://scorcher.ru/neuro/neuro_sys/consciousness/consciousness3.php"
+target="_blank" style='font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:-webkit-left;widows: 2;-webkit-text-stroke-width: 0px;
+word-spacing:0px'><span style='color:purple;background:white'>Человек, который
+принял жену за шляпу</span></a><span style='background:white'><span
+style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:-webkit-left;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-thickness: initial;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'>&nbsp;описан случай временной утраты специфичных для человека свойств к
+творческому&nbsp;мышлению вместе с ассоциированной с этой&nbsp;значимостью.
+Соответственно вернулось изначально природное состояние непосредственности
+восприятия и реагирования на окружающее</span></span></p>
+
+<p class=MsoNormal style='line-height:12.85pt;background:white'><span
+style='color:black;background:white'>...</span></p>
+
+<p class=MsoNormal style='line-height:12.85pt;background:white'><span
+style='color:black;background:white'>В детстве, уже в оформленном состоянии
+осознанного восприятия, случаются рецидивы возврата в состояние
+непосредственного восприятия, когда после недельной изоляции в постели из-за
+болезни ребенок вдруг опять возвращается на улицу и некоторое время с необычной
+яркостью воспринимает все вокруг. Но чем старше, тем реже случаются такие
+возвраты. Человек все больше погружается в мир субъективного восприятия, когда
+все вокруг интерпретируется его сформированными моделями понимания.</span>”.</span></p>
+
+<p class=MsoNormal>В организации ментальных циклов участвуют пакеты:</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/mental_automatizm.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/mental_automatizm.htm"><span
 style='color:blue'>mental_automatizm</span></a>&nbsp;- ментальные автоматизмы.</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/rules.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/rules.htm"><span
 style='color:blue'>rules</span></a>&nbsp;- правила - как эффект от совершенных
 действий.</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/rules_mental.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/rules_mental.htm"><span
 style='color:blue'>rules_mental</span></a>&nbsp;- правила - как эффект от
 мыслительных действий.</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/short_term_memory.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/short_term_memory.htm"><span
 style='color:blue'>short_term_memory</span></a>&nbsp;- кратковременная память.</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/trigger_and_action.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/trigger_and_action.htm"><span
 style='color:blue'>trigger_and_action</span></a>&nbsp;- отдельные правила - как
 эффект от совершенных действий.</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/trigger_and_action_mental.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/trigger_and_action_mental.htm"><span
 style='color:blue'>trigger_and_action_mental</span></a>&nbsp;- отдельные
 правила - как эффект от произвольных действий.</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/understanding.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/understanding.htm"><span
 style='color:blue'>understanding</span></a>&nbsp;- понимание, осмысление
 ситуации: 4 уровня вовлеченности.</p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/understanding_purpose_image.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/understanding_purpose_image.htm"><span
 lang=EN-US style='color:blue'>understanding_purpose_image</span></a><span
 lang=EN-US>&nbsp;- </span>образ желаемой цели<span lang=EN-US>.</span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
 margin-left:18.0pt;line-height:normal'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/understanding_situation_image.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/understanding_situation_image.htm"><span
 lang=EN-US style='color:blue'>understanding_situation_image</span></a><span
 lang=EN-US>&nbsp;- </span>образ текущей ситуации<span lang=EN-US>.</span></p>
 
 <p class=MsoNormal style='margin-left:18.0pt'><a
-href="https://scorcher.ru/adaptologiya/beast/beast_scheme/package/understanding_tree.htm"><span
+href="/adaptologiya/beast/beast_scheme/package/understanding_tree.htm"><span
 style='color:blue'>understanding_tree</span></a>&nbsp;- дерево понимания.</p>
 
 <h2><a name="_Toc121642985">Доминанта нерешенной проблемы и гештальт</a></h2>
@@ -3163,11 +3211,7 @@ lang=EN-US> </span>было очевидно, насколько кардинально меняют возможности
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>&nbsp;</p>
-
-<p class=MsoNormal>&nbsp;</p>
 
 EOD;
 echo underlining_dic_words($str);
