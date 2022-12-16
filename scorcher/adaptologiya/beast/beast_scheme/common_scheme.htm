@@ -1,0 +1,621 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:36.0pt 36.0pt 36.0pt 36.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=RU style='word-wrap:break-word'>
+
+<div class=WordSection1 style="margin-left:50px;max-width:1000px">
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Общая
+схема</span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>При старте программы начинает работать генератор “пульса” с
+частотой 1 сек. Он запускает каждую секунду функцию Аctivatin(), в которой
+происходит:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Коррекция
+текущих значений базовых параметров и базовых контекстов при внешних
+воздействиях.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Определение
+текущего состояния по каждому базовому параметру, затем общего интегрального
+состояния.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Взаимодействие
+с Пультом связи.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Совокупность воздействий оператора на Beast через кнопки
+действий и отправку сообщений формируют интегральный пусковой образ (по
+Дж.Тонони, т.е. уникально целостную совокупность воспринимаемого разного вида),
+а провоцируемые этим внутренние изменения гомеостаза вместе с пусковым образом
+формируют Информационную среду Beast, т.е. текущую картину ситуации с
+составляющими образами, имеющими определенную значимость для </span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Beast</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Интегральный пусковой образ используется в распознавателе
+условий ситуации в виде древовидной структуры двух деревьев рефлексов и
+автоматизмов, которые активируются по факту изменения жизненного состояния или
+при стимуле от оператора. При возникновении нового сочетания детектируемых
+условий в деревья добавляется новый узел и к нему может привязываться
+рефлекс/автоматизм, что обеспечивает реагирование.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Постоянный мониторинг интегрального состояния B</span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>east</span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>
+</span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>с
+каждым пульсом отслеживает изменения его Информационной среды, которое может
+быть спровоцировано следующими факторами:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>внутренними
+изменениями – общий признак воздействия, в том числе ритмичным
+убыванием/нарастанием значений базовых потребностей</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>действием
+– через кнопки действий</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>фразой
+– через отправку текстовых сообщений</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>запуском
+произвольных действий </span><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Arial",sans-serif'>Beast</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'> в
+виде ментальных автоматизмов</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Активация первого типа происходит при срабатывании
+компараторов порогов базовых потребностей и является пусковым стимулом для древнейших
+безусловных рефлексов, активирующихся только изменениями базовых контекстов –
+это простейшая «реакция по умолчанию», определенная наследственно. Это - адаптация
+через подстройку гомеостаза под изменяющиеся условия.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Активации второго и третьего типа может запускать
+безусловные, условные рефлексы и моторные автоматизмы, имеющие в своем пусковом
+образе стимул «действие оператора» и/или «фраза».</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Активация четвертого типа происходит в результате “мыслительных”
+действий </span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Arial",sans-serif'>Beast</span><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Arial",sans-serif'> </span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>(действия
+по управления функциями управления и получения информации).</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>В нулевой стадии развития, до “рождения” Beast в виде
+первого включения, заполняются структуры данных, формирующие систему
+гомеостаза: таблицы базовых параметров, базовых контекстов, связей между ними, возможных
+действий, безусловных рефлексов. При запуске Beast и переходе на следующие
+стадии не рекомендуется изменять параметры гомеостаза, так как все последующее
+развитие реагирования строится на предыдущем, изменение которого может вызвать самые
+странные последствия для системы потому как наработанные последующие реакции
+были основаны на других параметрах. Это – как построить карточный замок, а
+потом начать менять карты в его основании.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>При запуске </span><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Arial",sans-serif'>Beast</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'> на
+первой стадии становится возможным обогатить базовое реагирование, создавая
+условные рефлексы – простейший вариант фиксации причинно-следственной связи
+между двумя смежными по времени событиями. В случае </span><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Beast</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'> при
+помощи условных рефлексов можно закрепить реакцию на фразы, которой у него изначально
+нет, так как безусловные рефлексы – это только действия в ответ на пусковые
+стимулы. Для этого нужно послать </span><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Arial",sans-serif'>Beast</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>
+фразу, а следом нажать одну из кнопок действий – в результате реакция от
+действия «привяжется» к фразе и станет ответным действием на нее. Но это
+произойдет только после 3-х повторений в течении одного сеанса связи с </span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Beast</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'> (до
+выключения). Если нужно создать условный рефлекс с первого раза, то следует на
+Пульте активировать флажок «Режим форсированной обработки», расположенный над
+окном ввода текстовых сообщений.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>На первой стадии развития в реагировании учитывается только
+образ активной ветки дерева рефлексов, запускающий безусловные или условные
+рефлексы в последовательности от более нового типа реагирования к более
+простому в следующем порядке:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>условный
+рефлекс. Если его нет, то</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>безусловный
+рефлекс. Если его нет, то</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>древний
+безусловный рефлекс. Если его нет, то</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>древнейший
+безусловный</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Рефлексы выполняются чисто автоматически, запуская действия
+при возникновении подходящего пускового образа, который допускает для условных
+рефлексов «мягкое», не точное распознавание, увеличивая тем самым
+вариабельность реагирования.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Начиная со второй стадии рефлекторное реагирование
+становится вторичным, замещаясь моторными автоматизмами, способными в отличие
+от рефлексов оцениваться и модифицироваться: блокироваться, менять параметры актуальности,
+полезности и уверенности. При этом первичная база автоматизмов формируется
+путем клонирования безусловных и условных рефлексов, что показывает принцип
+наследования при формировании механизмов адаптации: новый механизм всегда
+строится на основе предыдущих, замещая и дополняя их функциональность, но не
+отменяя. При этом активность более высокоорганизованной структуры подавляет
+активность предыдущих.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Моторные автоматизмы так же, как рефлексы запускаются при
+активации соответствующего пускового образа, который тоже может быть «мягким» в
+строго определенных условиях. При каждом запуске происходит оценка последствий
+реагирования и уточняется полезность автоматизма: при успешном выполнении она увеличивается,
+укрепляя его и делая автоматизм актуальным (штатным), при не успешном
+уменьшается вплоть до блокировки, что происходит при отрицательных значениях.
+Оценка выполненных действий и значимости участвующих образов составляет границу
+с системой произвольного реагирования, с этого момента как стимулы, так и ответные
+реакции Beast подвергаются “осмыслению” в специальном цикле решения проблем,
+передавая управление от актуальных образов в единую область решения проблем,
+что соответствует схеме связи с лобной корой А.Иваницкого (fornit.ru/7446).</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Если на уровне дерева автоматизмов для активной ветки не
+находится автоматизм, активируется Ориентировочный рефлекс 1-го типа и
+запускается жесткий (наследственно предопределенный) алгоритм поиска решения:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>для
+1 и 2 стадии оценивается опасность ситуации:</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>если
+она опасна, то:</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:
+-18.0pt'><span style='font-size:12.0pt;line-height:115%;font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>ищется
+древнейший безусловный рефлекс на текущее состояние и клонируется в пробный
+автоматизм. Так реализован на этих стадиях принцип «отката» адаптации к более
+низкому рефлекторному уровню, когда реакция должна быть максимально быстрой и
+нет времени ни на какие эксперименты. Если действие оказалось успешным
+автоматизм начинает повышать уверенность – закрепляться.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:
+-18.0pt'><span style='font-size:12.0pt;line-height:115%;font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>если
+он не нашелся, то происходит попытка запустить случайной выборкой автоматизм из
+удачных – без привязки к текущему пусковому стимулу, просто повторить
+какое-нибудь удачное действие.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>если
+ситуация не опасна, то для случая активного контекста «поиск» или «игра»
+делается более смелая попытка найти пробный автоматизм – сгенерировать
+случайное действие. Если же активны другие контексты, то эксперименты более
+осторожные, по алгоритму опасной ситуации: запустить случайной выборкой
+какой-нибудь из удачных автоматизмов.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>На стадии 3, для случая отсутствия автоматизма появляется дополнительная
+возможность получения нового варианта реагирования – использовать опыт действий
+оператора. Но так как </span><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Arial",sans-serif'>Beast</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'> пока
+еще реагирует бессмысленно, он не может «спросить», как ему правильно
+реагировать. Поэтому делается более примитивный вариант: “не знаешь, как
+ответить – просто повтори вопрос”. Оператор в следующем шаге диалога на него
+среагирует – это и будет нужное действие, которое надо запомнить и использовать
+в дальнейшем как свое. Причем можно сразу же присвоить такому автоматизму
+статус уверенного, потому что это бессмысленное, авторитарное обучение:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Стимул
+– предыдущая реакция Beast</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Акция
+– текущий ответ Оператора</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Параметр
+актуальности автоматизма устанавливается Belief = 2 (авторитарно проверенный)</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>В третьей стадии в случае обнаружения подходящего ситуации
+автоматизма он проходит проверку перед выполнением: стоит ли его просто
+выполнить или можно подумать и подобрать более подходящий вариант:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Если
+есть очень значимый признак и ситуация опасна, то автоматизм сразу выполняется,
+так как в такой ситуации нет времени думать и нужно использовать ранее
+проверенное решение.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Если
+значимых признаков нет, и ситуация не опасна, то смотрится уровень надежности
+автоматизма и делаются пробные попытки улучшить автоматизм или получить новый
+от оператора:</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Если
+автоматизм хороший он просто выполняется</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Если
+плохой, то активируются рефлексы мозжечка с попыткой его улучшить, и измененный
+автоматизм запускается как пробный. Если это не помогло, то генерируется
+случайное действие и отправляется оператору. В следующем шаге диалога с
+оператором полученный ответ сохраняется как зеркальный автоматизм с оценкой
+успешности.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>С четвертой стадии при каждом запуске автоматизмов начинает
+записываться эпизодическая память в виде кадров с образами Правилами,
+полученными на опыте: Стимул – Ответ – Эффект, а так же текущие условия данного
+момента, где:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Стимул
+– пусковой образ</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Ответ
+– ответные действия автоматизма</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Эффект
+– оценка (не)успешности автоматизма</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Последовательность кадров образует цепочкуи эпизодической
+памяти, а ее фрагменты – образ Правил, которые так же записываются при каждой
+активации автоматизма в двух вариантах:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Прямое
+правило:</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Стимул
+– текущее действие оператора</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Ответ
+– текущее действие Beast</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Эффект
+– эффект от действий Beast </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Зеркальное
+(авторитарное) правило:</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Стимул
+– предыдущее действие оператора</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Ответ
+– текущее действие Beast</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Эффект
+– 1 (чужой опыт)</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Так постепенно формируется система Правил Beast и
+становится возможным использовать их при выборе нового варианта реагирования.
+Теперь становится возможным формировать новые моторные автоматизмы путем
+анализа прошлого опыта, причем не только своего, но и чужого (оператора).
+Анализ совершается в виде циклов выполнения новых типов автоматизмов –
+ментальных (т.е. управляющих функциями управления и получения информации),
+задача которых прогнозировать последствия предполагаемых действий, выбирая из них
+наилучшие для текущей ситуации.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Для запуска ментальных автоматизмов используется интегральный
+пусковой образ понимания ситуации в виде дерева понимания, определяющий
+иерархический порядок сочетаний ментальных пусковых стимулов, которые
+активируются по факту изменения информационной среды. Такими уровнями
+информации о ситуации являются:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>текущее
+настроение </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>текущая
+эмоция</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>текущий
+объект структуры понимания</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>желаемая
+цель</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Настроение и эмоция здесь - аналог соответствующих образов
+дерева автоматизмов, но они могут произвольно  меняться (действиями ментальных
+автоматизмов), позволяя тем самым выйти из алгоритмического следования
+предопределенным пусковыми стимулами ветвлениям, отделить внешнее восприятие от
+области абстрактного осмысления. Объект структуры понимания и желаемая цель - специфичные
+только для дерева понимания образы. Их активация означает, что в интегральном
+пусковом образе </span><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Arial",sans-serif'>Beast</span><span style='font-size:12.0pt;
+line-height:115%;font-family:"Arial",sans-serif'> был выделен <b>объект</b> с
+определенной <b>значимостью</b>, привлекший внимание и провоцирующий
+определенные действия от </span><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Arial",sans-serif'>Beast</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'> по
+отношению к себе, что означает <b>целенаправленное действие</b>. При более
+сложном реагировании возникает потребность выполнения цепочек действий, поэтому
+возникают промежуточные цели выполнения таких цепочек. При этом в текущий
+момент такая цель может даже противоречить базовой гомеостатической, что
+нередко случается при построении стратегий достижения цели: приходится
+выполнять действия, ухудшающие текущее состояние, если предполагается его
+дальнейшее улучшение, либо если значимость цели выше базовой. Например,
+гомеостатическая цель самосохранения может быть понижена во имя цели достижения
+какого-то значимого результата, что демонстрируют, к примеру, спортсмены
+экстремалы.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>При осмыслении объект внимания не может быть отделен от его
+значимости, которое по сути является выделенным свойством объекта (входит в
+состав интегрального образа). Поэтому воспринимается всегда только пара:
+объект: красный мяч, твердый камень, холодная вода + значимость (позитивная или
+негативная) того, как этот объект улучшает или ухудшает состояние в данной
+ситуации. Просто «красный, твердый, холодный» понимается не однозначно и
+требует уточнения – кто, что? А с уточнением условий (твердый, холодный,
+красный) определяется конкретная значимость. Значимость отражает запечатленное
+на момент формирования объекта последствие: сунул руку в огонь – горячо, ожог:
+объект огонь – боль, стало хуже. Сунул обожженную руку в холодную воду – боль
+утихла, приятно: объект вода – облегает боль, стало лучше. И так в разных
+ситуациях выделенный как интегральная комбинация пусковых стимулов объект в
+разных контекстах получает определенную оценку. Поэтому объект всегда
+контекстно зависим и потому в отрыве от контекста не понимаем в принципе:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>камень
+– какой? Не понятно, требуется уточнение.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>горячий
+камень, холодный камень – понятно, но воспринимается в зависимости от текущего
+внутреннего состояния и внешнего контекста: если холодно – горячий камень
+греет, это хорошо. Если жарко – обжигает, тогда холодный камень «хорошо».</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Но так как распознавание сложного объекта, не все
+компоненты которого известны, не всегда возможно сделать сразу, то допускается
+мягкое, неточное распознавание, что означает: значимость в этом случае
+определяется как наиболее часто встречаемая из прошлого опыта и наиболее
+важная. Если был множественный опыт получения кирпичом по голове, то объект
+«кирпич» без уточнения контекста будет первоначально воспринят как опасность,
+которой следует избегать.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>Выше описана лишь небольшая часть возможного анализа
+прошлого опыта с выделением объектов и сопутствующей им значимостью, которая
+позволяет прогнозировать развитие ситуации, что участвует и направляет процесс
+мышления (итерации изменений информационной картины с каждой попыткой
+ментальной оценки проблемы для нахождения решения). На данный момент у </span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Beast</span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>
+реализовано 3 уровня осмысленного реагирования, от очень быстрого до все более
+требующего ресурсы и времени:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Выбрать
+лучший автоматизм среди прикрепленных к активному узлу дерева автоматизмов.
+Если такой нашелся, то если ситуация не опасно – просто выполнить его. Если не
+нашелся или ситуация опасная тогда активируется следующий уровень.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>В
+эпизодической памяти ищется цепочка правил, где стимул в конечном звене
+совпадает с текущим, а сама цепочка желательно, чтобы в точности повторяла
+аналогичный фрагмент последний пар стимул-ответ. То есть здесь делается анализ
+проигрывания не одиночного действия, как в прежних стадиях развития, а цепочки
+действий и возможные последствия по ее окончанию. Если нашлась такая цепочка,
+то проверяется опасность ситуации, и в случае не опасной – найденное в прошлом
+опыте удачное действие выполняется. Если же ситуация опасная или не нашлось
+нужной цепочки, то активируется следующий уровень осмысления.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Arial",sans-serif'>Согласно
+ментальным правилам, происходит еще более глубокий анализ – ищутся варианты
+решения и выбирается наилучший. Эта стадия еще в разработке.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
